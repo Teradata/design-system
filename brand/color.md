@@ -1,2 +1,2 @@
-# Brand Colors
+# ## Brand Colors
 
