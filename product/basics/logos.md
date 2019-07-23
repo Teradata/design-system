@@ -1,6 +1,6 @@
-# Logo Usage
+# Logo usage
 
-## Including Your Logo
+## Including your logo
 
 Your company logo can be implemented with mat-icon.
 

@@ -54,7 +54,7 @@ One exception is when you want to specifically emphasize the action over the sub
 
 We do not use title case. Page titles, actions, modal titles, etc should use sentence case. Sentence case capitalizes the first letter of the first word.
 
-Buttons in Google's Material Design use all caps. This is a specific design exception that breaks the above rule.
+Buttons in use all caps. This is a specific design exception that breaks the above rule.
 
 For more, review [Making a case for letter case](https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98).
 
@@ -136,9 +136,9 @@ Use the % symbol instead of spelling out "percent."
 
 #### Ranges and spans
 
-Use a hyphen (-) to indicate a range or span of numbers.
+Use an en dash (without spaces) to indicate a range or span of numbers.
 
-*   It takes 20-30 days.
+*   It takes 20–30 days.
 
 #### Money
 
@@ -154,7 +154,7 @@ When writing about other currencies, follow the same symbol-amount format:
 
 #### Telephone numbers
 
-Use dashes without spaces between numbers. Use a country code if your reader is in another country.
+Use hyphens without spaces between numbers. Use a country code if your reader is in another country.
 
 *   555-867-5309
 *   +1-404-123-4567

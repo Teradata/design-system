@@ -1,27 +1,27 @@
-# Layouts
+# Templates
 
-For your entire app or for different sections of your app, select one of these layout options:
+For your entire app or for different sections of your app, select one of these templates.
 
-## Nav View
+## Nav view
 
 A top toolbar only. Best for dashboards with no in-page navigation. A blank canvas.
 
 ![nav](images/nav-view.png)
 
 
-## Nav List
+## Nav list
 
 Persistent left nav for category views, documentation or browsing lists.
 
 ![nav](images/nav-list.png)
 
-## Card Over
+## Card over
 
-Used on this page, recommended for detail views, forms and blog posts.
+Recommended for detail views, forms and blog posts.
 
 ![nav](images/card-over.png)
 
-## Management List
+## Management list
 
 Best for admin & management list views or sub-dashboards with their own left nav.
 

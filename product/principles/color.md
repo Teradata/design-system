@@ -1,4 +1,4 @@
-# Product Colors
+# Color
 
 Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights.
 
@@ -10,9 +10,9 @@ To manually color a background, use our simple bgc utility class:
 <div class="bgc-green-700">green background</div>
 ```
 
-Choose from any of the material colors, in hues from 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 (and A100, A200, A400, A700 for all except brown, grey & blue-grey)
+Choose from any of the material colors, in hues from 50, 100, 200, 300, 400, 500, 600, 700, 800, 900 (and A100, A200, A400, A700 for all except brown, grey & blue-grey).
 
-## Dark Mode Colors
+## Dark theme
 
 To manually color a background, use our simple bgc utility class:
 
@@ -20,4 +20,4 @@ To manually color a background, use our simple bgc utility class:
 <div class="bgc-dark-green-700">dark green background</div>
 ```
 
-choose from any of the dark material colors, in hues from 500, B100, B65, B40, B30 & B15
+Choose from any of the dark material colors, in hues from 500, B100, B65, B40, B30 & B15.

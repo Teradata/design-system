@@ -1,6 +1,6 @@
 # Iconography
 
-## Ligature Material Icons
+## Ligature material icons
 
 The UI Platform ships with 750+ icons as Font (Ligature) icons.
 
@@ -8,7 +8,7 @@ Material design system icons are simple, modern, friendly, and sometimes quirky.
 
 This entire library of icons is licensed under Creative Common Attribution 4.0 International License (CC-BY 4.0) and can be used within Teradata products with no attribution (the icon library just can't be sold standalone).
 
-Usage
+### Usage
 Using font icon within the Teradata UI Plaform is extremely simple:
 
 ```html
