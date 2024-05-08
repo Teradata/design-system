@@ -1,6 +1,6 @@
 {
-  "name": "@bsahitya/react-components",
-  "version": "0.1.3",
+  "name": "@teradata/react-web-components",
+  "version": "1.0.0",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {

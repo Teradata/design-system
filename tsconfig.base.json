@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@bsahitya/react-components": ["libs/react-components/src/index.ts"]
+      "@teradata/react-web-components": ["libs/react-components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

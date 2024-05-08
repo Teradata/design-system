@@ -1,5 +1,5 @@
 {
-  "name": "@bsahitya/web-design-system",
+  "name": "@teradata/web-design-system",
   "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
@@ -74,6 +74,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bsahitya/web-design-system.git"
+    "url": "https://github.com/Teradata/design-system.git"
   }
 }
