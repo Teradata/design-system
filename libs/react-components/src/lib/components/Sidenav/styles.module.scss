@@ -1,0 +1,42 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  min-width: 320px;
+  max-width: 700px;
+  height: 100%;
+  z-index: 199;
+  background-color: #fff;
+  border-left: 1px solid #e5e5e5;
+  transition: transform 0.5s ease;
+
+  &.show {
+    &.left {
+      transform: translateX(0);
+    }
+
+    &.right {
+      transform: translateX(0);
+    }
+
+    box-shadow: 2px 7px 10px rgba(0, 0, 0, 0.46);
+  }
+
+  &.right {
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  &.left {
+    left: 0;
+    transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .sidenav {
+    display: none;
+  }
+}

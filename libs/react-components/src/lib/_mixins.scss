@@ -1,0 +1,39 @@
+@mixin container-wide() {
+  .containerWide {
+    padding: 0 1.5rem;
+    margin: auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (min-width: 768px) {
+    .containerWide {
+      padding: 0 2.5rem;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .containerWide {
+      padding: 0 6.625rem;
+      width: 100%;
+    }
+  }
+}
+
+@mixin caret() {
+  .caret {
+    content: '';
+    border: solid #333a3e;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    position: absolute;
+    transition: all 0.25s ease;
+    right: 3px;
+    cursor: pointer;
+
+    &.active {
+      transform: rotate(45deg) rotate(-180deg);
+    }
+  }
+}

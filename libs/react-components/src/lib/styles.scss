@@ -1,0 +1,41 @@
+@use '@covalent/tokens' as covalent-tokens;
+@use '@covalent/components' as covalent-theme;
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block');
+
+// Extracting theme tokens
+$theme-tokens: map-get(covalent-tokens.$tokens, 'theme');
+$light-tokens: map-get($theme-tokens, 'light');
+$dark-tokens: map-get($theme-tokens, 'dark');
+
+// Extracting typography tokens
+$typography: map-get(covalent-tokens.$tokens, 'typography');
+
+// Extracting color tokens for light and dark themes
+$light-colors: map-get($light-tokens, 'colors');
+$dark-colors: map-get($dark-tokens, 'colors');
+
+// Merging with deprecated tokens (if any)
+$light-colors: map-merge(
+  $light-colors,
+  map-get(covalent-tokens.$tokens, 'light')
+);
+$dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
+
+@mixin code-tokens($typogrpahy) {
+  --cv-theme-code-font-family: #{map-get($typography, code-font-family)};
+  --cv-theme-code-font-size: #{map-get($typography, code-font-size)};
+  --cv-theme-code-font-weight: #{map-get($typography, code-font-weight)};
+  --cv-theme-code-line-height: #{map-get($typography, code-line-height)};
+}
+
+:root {
+  // Apply the light theme by default
+  @include covalent-theme.components-theme($light-colors, $typography);
+  @include code-tokens($typography);
+}
+
+// Dark theme class
+.theme-dark {
+  // Apply the dark theme when .theme-dark class is added to an element
+  @include covalent-theme.components-theme($dark-colors, $typography);
+}

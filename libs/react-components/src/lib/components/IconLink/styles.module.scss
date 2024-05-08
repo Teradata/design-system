@@ -1,0 +1,22 @@
+.iconLink {
+  align-items: center;
+  background: #00233c;
+  border-radius: 100%;
+  color: #fff;
+  display: inline-flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out 0s;
+  text-decoration: none;
+
+  &:hover {
+    background: #ff5f02;
+    text-decoration: none;
+  }
+}
+
+.icon {
+  color: #fff;
+}

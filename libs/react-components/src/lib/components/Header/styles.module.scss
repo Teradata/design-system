@@ -1,0 +1,292 @@
+@import '../../mixins';
+@include container-wide();
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #333a3e;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.siteHeader {
+  background-color: #ffffff;
+}
+
+.headerUtility {
+  background: #f6f7fb;
+  color: #00233c;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  min-height: 28px;
+  align-items: center;
+  display: none;
+}
+
+.headerUtility .containerWide {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.headerUtility ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.headerUtility a {
+  text-decoration: none;
+  position: relative;
+  background-image: linear-gradient(#00233c, #00233c);
+  background-image: webkit-linear-gradient(#00233c, #00233c);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  transition: all 0.25s ease-in-out 0s;
+  color: #00233c;
+  width: 100%;
+}
+
+.headerUtility a:hover {
+  background-size: 100% 1px;
+  text-decoration: none;
+}
+
+.headerNavWrapper {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 101;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.headerNav {
+  display: none;
+  background-color: #ffffff;
+}
+
+.headerNav nav {
+  height: 88px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.headerNav a,
+.headerNavMobile a {
+  text-decoration: none;
+}
+
+.headerNav .headerNavElement {
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+}
+
+.headerNavLogoText {
+  font-size: 22px;
+  color: #333a3e;
+  letter-spacing: -0.44px;
+  margin-left: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headerNavMainMenu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20px;
+  width: 100%;
+  height: 1.875rem;
+}
+
+.headerNavActions {
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.headerNavActionItem {
+  margin-left: 1.5rem;
+}
+
+.headerNavLogo {
+  display: flex;
+  align-items: end;
+}
+
+.headerNavMobile {
+  display: block;
+}
+
+.headerNavVDivider {
+  padding: 0 0.5px;
+  margin: 0 0.875rem;
+  height: 0.9375rem;
+  background-color: #5e7484;
+}
+
+.headerNavMobile nav {
+  border-bottom: 1px solid #e5e5e5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 200;
+  color: #333a3e;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  line-height: 26px;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem;
+}
+
+.headerNavMobileWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerNav .teradataLogo {
+  width: 9.25rem;
+  height: 1.75rem;
+}
+
+.headerNavMobile .teradataLogo {
+  width: 5.5rem;
+  height: 1rem;
+  margin-right: 1rem;
+}
+
+.headerNavMobileLogoText {
+  color: #333a3e;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  white-space: nowrap;
+}
+
+.headerNavMobileTopLinks {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  li {
+    height: 24px;
+    padding-left: 1.25rem;
+  }
+}
+
+.headerNavMobileMenuIcon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 24px;
+  padding-right: 0;
+}
+
+.headerNavMobileFooter {
+  background-color: #f6f7fb;
+  display: flex;
+}
+
+.headerNavMobileFooter ul {
+  margin: 1em 0;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.headerNavMobileFooter a {
+  text-decoration: none;
+  color: #333a3e;
+  font-size: 0.925rem;
+  font-weight: 700;
+}
+
+.headerNavMobileSecondaryMenu {
+  padding-top: 1.5rem;
+  padding-left: 2px;
+
+  .show {
+    display: block;
+  }
+}
+
+.headerNavMobileIcon {
+  cursor: pointer;
+}
+
+.sidenavHeader {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ced3da;
+  justify-content: space-between;
+  padding: 1rem;
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.sidenavContent {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .headerNavMobile nav {
+    padding: 1rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1259px) and (min-width: 1024px) {
+  .headerNavLogoText {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .headerNav {
+    display: block;
+  }
+
+  .headerUtility {
+    display: flex;
+  }
+
+  .headerNavMobile {
+    display: none;
+  }
+
+  .activeMobileMenu.pageBlackout {
+    display: none;
+  }
+}

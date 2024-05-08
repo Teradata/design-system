@@ -1,0 +1,19 @@
+.pageBlackout {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: all;
+  background-color: #ced3da;
+  opacity: 0.1;
+  transition: opacity 0.25s ease;
+  transform: translateX(-100%);
+  z-index: 49;
+
+  &.show {
+    opacity: 0.15;
+    pointer-events: all;
+    transform: translateX(0);
+  }
+}
