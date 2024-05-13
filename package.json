@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "semantic-release": "semantic-release --branches main",
-    "build-storybook": "storybook build -c libs/react-components/.storybook -o dist/storybook/react-components"
+    "build-storybook": "nx run react-components:build-storybook"
   },
   "dependencies": {
     "react": "18.3.1",
