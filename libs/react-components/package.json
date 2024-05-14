@@ -1,6 +1,7 @@
 {
-  "name": "@teradata/react-web-components",
+  "name": "@teradata-web/react-components",
   "version": "1.0.0",
+  "license": "MIT",
   "main": "./index.js",
   "types": "./index.d.ts",
   "exports": {
