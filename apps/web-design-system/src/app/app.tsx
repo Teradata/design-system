@@ -3,7 +3,7 @@ import styles from './app.module.scss';
 
 import NxWelcome from './nx-welcome';
 
-import { IconButton } from '@teradata/react-web-components';
+import { IconButton } from '@teradata-web/react-components';
 
 export function App() {
   return (
