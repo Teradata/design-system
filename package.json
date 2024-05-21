@@ -5,7 +5,8 @@
   "scripts": {
     "semantic-release": "semantic-release --branches main",
     "build-storybook": "nx run react-components:build-storybook",
-    "format:check": "nx format"
+    "format:check": "nx format",
+    "release:prepare": "npx nx run-many --target=build --all && node ./scripts/version-placeholder ./dist"
   },
   "dependencies": {
     "react": "18.3.1",

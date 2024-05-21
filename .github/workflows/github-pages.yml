@@ -6,6 +6,9 @@ on:
   push:
     branches: [main] # Replace with the branch you want to deploy from
 
+env:
+  NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
+
 permissions:
   contents: read
   pages: write

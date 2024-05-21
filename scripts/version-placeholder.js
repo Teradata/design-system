@@ -5,10 +5,7 @@ const spawnSync = require('child_process').spawnSync;
 const packageJson = require('../package.json');
 const args = process.argv.slice(2);
 
-const placeholders = [
-  ['0.0.0-TERADATA-WEB', packageJson.version],
-  ['0.0.0-TSLIB', packageJson.dependencies['tslib']],
-];
+const placeholders = [['0.0.0-TERADATA-WEB', packageJson.version]];
 console.log('Replacing placeholders: ', placeholders);
 
 /** RegExps that match version placeholders inside of a file. */
