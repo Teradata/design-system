@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/Teradata/design-system/compare/v1.0.2...v1.0.3) (2024-05-22)
+
+
+### Bug Fixes
+
+* **release:** remove files prop from package.json ([4051c48](https://github.com/Teradata/design-system/commit/4051c48e2ebc56db395da7bdf51f3dd8d0a0a291))
+* **release:** remove files prop from package.json ([e76653b](https://github.com/Teradata/design-system/commit/e76653b6c78723f5360af4b0716cf34d169f3f37))
+
 ## [1.0.2](https://github.com/Teradata/design-system/compare/v1.0.1...v1.0.2) (2024-05-22)
 
 
