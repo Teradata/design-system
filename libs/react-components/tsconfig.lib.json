@@ -2,6 +2,9 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "declaration": true,
     "types": [
       "node",
       "@nx/react/typings/cssmodule.d.ts",
