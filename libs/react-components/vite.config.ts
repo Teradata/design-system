@@ -12,7 +12,13 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/libs/react-components',
 
   plugins: [
-    react(),
+    react({
+      babel: {
+        plugins: [
+          ['@babel/plugin-transform-react-jsx', { runtime: 'automatic' }],
+        ],
+      },
+    }),
     nxViteTsPaths(),
     libInjectCss(),
     dts({
@@ -48,7 +54,8 @@ export default defineConfig({
           .sync(path.resolve(__dirname, 'src/lib/**/*.{ts,tsx}'), {
             ignore: [
               path.resolve(__dirname, 'src/lib/**/*.stories.tsx'),
-              path.resolve(__dirname, 'lib/**/*.d.ts'),
+              path.resolve(__dirname, 'src/lib/**/*.d.ts'),
+              path.resolve(__dirname, 'src/lib/**/*.spec.{ts,tsx,js,jsx}'),
             ],
           })
           .map((file) => [
