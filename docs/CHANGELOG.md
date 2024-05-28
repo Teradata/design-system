@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Teradata/design-system/compare/v1.0.3...v1.0.4) (2024-05-28)
+
+
+### Bug Fixes
+
+* **build:** resolve the jsx runtime issue ([a3042ec](https://github.com/Teradata/design-system/commit/a3042ecb6e097fd83593d0ea69385a14bb2ef7bb))
+
 ## [1.0.3](https://github.com/Teradata/design-system/compare/v1.0.2...v1.0.3) (2024-05-22)
 
 
