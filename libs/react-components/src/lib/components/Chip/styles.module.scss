@@ -1,8 +1,8 @@
 .chip {
-  border: 1px solid var(--web-gray-300);
+  border: 1px solid var(--td-web-gray-300);
   border-radius: 100px;
   box-sizing: border-box;
-  color: var(--web-primary-navy);
+  color: var(--td-web-primary-navy);
   display: inline-block;
   font-family: var(--mdc-typography-subtitle1-font-family);
   font-weight: var(--mdc-typography-subtitle1-font-weight);
@@ -15,13 +15,13 @@
   }
 
   &:hover {
-    border-color: var(--web-primary-navy);
+    border-color: var(--td-web-primary-navy);
   }
 }
 
 .selected {
-  background-color: var(--web-primary-navy);
-  border-color: var(--web-primary-navy);
+  background-color: var(--td-web-primary-navy);
+  border-color: var(--td-web-primary-navy);
   color: var(--cv-theme-surface-container-lowest);
   cursor: default;
 }

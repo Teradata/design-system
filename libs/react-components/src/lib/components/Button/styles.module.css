@@ -7,9 +7,9 @@
   min-width: 0;
   margin-bottom: 0;
   padding: 12px 16px;
-  border: 1px solid var(--web-primary-navy);
+  border: 1px solid var(--td-web-primary-navy);
   border-radius: 12px;
-  background: var(--web-primary-navy);
+  background: var(--td-web-primary-navy);
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -36,10 +36,10 @@
 
 .tdButtonSecondary {
   background: transparent;
-  border-color: var(--web-primary-navy);
-  color: var(--web-primary-navy);
+  border-color: var(--td-web-primary-navy);
+  color: var(--td-web-primary-navy);
   &:hover {
     background: rgba(0, 35, 60, 0.15);
-    border-color: var(--web-primary-navy);
+    border-color: var(--td-web-primary-navy);
   }
 }
