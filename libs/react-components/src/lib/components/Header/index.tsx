@@ -132,7 +132,10 @@ const Header: React.FC<HeaderProps> = ({
 
   return (
     <>
-      <nav className={`${styles.headerNavWrapper} navbar`}>
+      <nav
+        className={`${styles.headerNavWrapper} navbar`}
+        aria-label="Primary navigation"
+      >
         {/* Header utility bar with the language switcher begins */}
         <section className={styles.headerUtility}>
           <div className={styles.containerWide}>

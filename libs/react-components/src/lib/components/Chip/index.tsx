@@ -35,6 +35,10 @@ const Chip: React.FC<ChipProps> = ({
     }
   };
 
+  const handleKeyUp = (event: React.KeyboardEvent) => {
+    if (event.key === 'Enter') handleClick();
+  };
+
   useEffect(() => {
     if (selectable) setIsSelected(selected);
   }, [selectable, selected]);
@@ -45,6 +49,8 @@ const Chip: React.FC<ChipProps> = ({
         selectable ? styles.selectable : ''
       }`}
       onClick={handleClick}
+      onKeyUp={handleKeyUp}
+      tabIndex={0}
     >
       {label}
     </div>

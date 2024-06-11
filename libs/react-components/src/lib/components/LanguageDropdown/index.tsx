@@ -68,8 +68,7 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
       }`}
     >
       <button
-        aria-label="Select language"
-        aria-controls="languages"
+        aria-label="Click or press enter to open menu"
         tabIndex={0}
         aria-haspopup="true"
         className={`${styles.languageSelectorToggle} ${styles.selected}`}
@@ -81,7 +80,7 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
         className={`${styles.languageSelector} ${
           menuPosition === 'top' ? styles.top : ''
         }`}
-        id="languages"
+        role="menu"
       >
         {languages.map((lang, index) => (
           <li
@@ -89,6 +88,7 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
               lang.value === activeLang?.value ? styles.active : ''
             }`}
             onClick={() => handleLangOptionClick(lang)}
+            tabIndex={0}
             key={index}
           >
             {lang.label}
