@@ -1,0 +1,10 @@
+.tabBar {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabContent {
+  margin-top: 40px;
+}

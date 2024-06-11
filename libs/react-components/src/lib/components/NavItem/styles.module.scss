@@ -2,7 +2,7 @@
   font-size: 0.9375rem;
   line-height: 1.25rem;
   font-weight: 600;
-  color: #00233c;
+  color: var(--td-web-primary-navy);
   position: relative;
   display: block;
   white-space: nowrap;
@@ -12,7 +12,7 @@
   cursor: pointer;
 
   &:hover {
-    color: #ff5f02;
+    color: var(--cv-theme-tertiary);
     text-decoration: none;
   }
 }
@@ -28,7 +28,7 @@
   left: 50%;
   transform: translateX(-50%);
   transition: all 0.1s ease;
-  background: #ff5f02;
+  background: var(--cv-theme-tertiary);
 }
 
 .navItemWrapper {
@@ -38,7 +38,7 @@
 .navItemMenu {
   position: absolute;
   top: 5rem;
-  background: #fff;
+  background: var(--cv-theme-surface-container-lowest);
   transform: translateX(-32%);
   transition: all 0.25s ease-in-out 0s;
   box-shadow: 0 12px 24px -6px rgba(16, 24, 40, 0.18);
@@ -63,12 +63,12 @@
     font-size: 15px;
     line-height: 32px;
     font-weight: 600;
-    color: #00233c;
+    color: var(--td-web-primary-navy);
     text-wrap: nowrap;
 
     &:hover,
     &.active {
-      color: #ff5f02;
+      color: var(--cv-theme-tertiary);
     }
   }
 }

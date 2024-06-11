@@ -15,9 +15,21 @@ export type Language = {
 };
 
 interface LanguageDropdownProps {
+  /**
+   * Default selected language.
+   */
   selectedLanguage?: string;
+  /**
+   * List of languages.
+   */
   languages: Language[];
+  /**
+   * Callback for language change.
+   */
   onLanguageChange?: (language: string) => void;
+  /**
+   * Position of the menu. Takes the values 'top' | 'bottom'.
+   */
   menuPosition?: MenuPosition;
 }
 
@@ -51,11 +63,12 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
 
   return (
     <div
-      className={`${styles.languageSelectorWrapper} ${activeLangButton ? styles.active : ''}`}
+      className={`${styles.languageSelectorWrapper} ${
+        activeLangButton ? styles.active : ''
+      }`}
     >
       <button
-        aria-label="Select language"
-        aria-controls="languages"
+        aria-label="Click or press enter to open menu"
         tabIndex={0}
         aria-haspopup="true"
         className={`${styles.languageSelectorToggle} ${styles.selected}`}
@@ -64,13 +77,18 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
         {activeLang?.label}
       </button>
       <ul
-        className={`${styles.languageSelector} ${menuPosition === 'top' ? styles.top : ''}`}
-        id="languages"
+        className={`${styles.languageSelector} ${
+          menuPosition === 'top' ? styles.top : ''
+        }`}
+        role="menu"
       >
         {languages.map((lang, index) => (
           <li
-            className={`${styles.languageOption} ${lang.value === activeLang?.value ? styles.active : ''}`}
+            className={`${styles.languageOption} ${
+              lang.value === activeLang?.value ? styles.active : ''
+            }`}
             onClick={() => handleLangOptionClick(lang)}
+            tabIndex={0}
             key={index}
           >
             {lang.label}

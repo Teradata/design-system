@@ -4,11 +4,29 @@ import styles from './styles.module.scss';
 import Icon from '../Icon';
 
 interface IconLinkProps {
+  /**
+   * Font awesome icon name.
+   */
   iconName: string;
+  /**
+   * URL for the link.
+   */
   href?: string;
+  /**
+   * Opens the link in a new tab if true.
+   */
   external?: boolean;
+  /**
+   * Color of the icon.
+   */
   color?: string;
+  /**
+   * Size of the icon in the link.
+   */
   size?: number | string;
+  /**
+   * aria-label for the link.
+   */
   label?: string;
 }
 

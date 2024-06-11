@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   pointer-events: all;
-  background-color: #ced3da;
+  background-color: var(--td-web-gray-100);
   opacity: 0.1;
   transition: opacity 0.25s ease;
   transform: translateX(-100%);

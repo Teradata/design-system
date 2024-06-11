@@ -36,9 +36,21 @@ export type SocialLinks = {
 };
 
 interface FooterProps {
+  /**
+   * List of links to be displayed in the footer.
+   */
   links?: FooterLink[];
+  /**
+   * Copyright text.
+   */
   copyright?: string;
+  /**
+   * List of social links.
+   */
   socialLinks?: SocialLinks;
+  /**
+   * List of the legal links.
+   */
   legalLinks?: FooterNavLink[];
 }
 

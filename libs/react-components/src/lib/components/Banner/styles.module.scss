@@ -1,0 +1,51 @@
+.banner {
+  align-items: center;
+  background-color: inherit;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: var(--mdc-typography-headline5-font-family);
+  gap: 2rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 100%;
+}
+
+.bannerTitle {
+  color: var(--td-web-primary-navy);
+  font-size: var(--mdc-typography-headline5-font-size);
+  font-weight: var(--mdc-typography-headline3-font-weight);
+  letter-spacing: -0.24px;
+  line-height: var(--mdc-typography-headline4-font-size);
+  margin: 0;
+}
+
+.bannerContent {
+  color: var(--td-web-gray-700);
+  font-size: 1.125rem;
+  margin-top: 1rem;
+}
+
+.bannerInfo,
+.bannerImage {
+  flex: 1 0 100%;
+  max-width: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    flex-direction: row;
+  }
+
+  .bannerImage {
+    flex: 1 0 calc(47.5% - 50px);
+    max-width: calc(47.5% - 50px);
+  }
+
+  .bannerInfo {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
