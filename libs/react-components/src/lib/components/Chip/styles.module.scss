@@ -1,0 +1,27 @@
+.chip {
+  border: 1px solid var(--web-gray-300);
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: var(--web-primary-navy);
+  display: inline-block;
+  font-family: var(--mdc-typography-subtitle1-font-family);
+  font-weight: var(--mdc-typography-subtitle1-font-weight);
+  padding: 1rem 1.5rem;
+  transition: all 0.25s ease-in-out 0s;
+  white-space: nowrap;
+
+  &.selectable {
+    cursor: pointer;
+  }
+
+  &:hover {
+    border-color: var(--web-primary-navy);
+  }
+}
+
+.selected {
+  background-color: var(--web-primary-navy);
+  border-color: var(--web-primary-navy);
+  color: var(--cv-theme-surface-container-lowest);
+  cursor: default;
+}

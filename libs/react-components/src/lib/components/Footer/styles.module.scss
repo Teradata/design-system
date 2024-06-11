@@ -10,7 +10,7 @@
   margin: 0;
   padding: 20px 0 40px;
   box-sizing: border-box;
-  background: #f6f7fb;
+  background: var(--web-gray-25);
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
 
@@ -33,7 +33,7 @@
 }
 
 .footerLinkTitle {
-  color: #00233c;
+  color: var(--web-primary-navy);
   font-weight: 600;
   padding-bottom: 1rem;
   line-height: 28px;
@@ -47,12 +47,18 @@
 
 .footerNavLink {
   text-decoration: none;
-  color: #00233c;
+  color: var(--web-primary-navy);
   font-weight: 400;
   font-size: 15px;
   line-height: 1.5rem;
-  background-image: linear-gradient(#00233c, #00233c);
-  background-image: webkit-linear-gradient(#00233c, #00233c);
+  background-image: linear-gradient(
+    var(--web-primary-navy),
+    var(--web-primary-navy)
+  );
+  background-image: webkit-linear-gradient(
+    var(--web-primary-navy),
+    var(--web-primary-navy)
+  );
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 0 1px;
@@ -61,7 +67,7 @@
 }
 
 .footerNavLink:hover {
-  color: #00233c;
+  color: var(--web-primary-navy);
   background-size: 100% 1px;
   text-decoration: none;
 }
@@ -89,7 +95,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-  border-top: 1px solid #b2b9c0;
+  border-top: 1px solid var(--web-gray-300);
   padding-top: 24px;
 }
 
@@ -139,7 +145,7 @@
 
   .footerLink.collapsible {
     width: 100%;
-    border-bottom: 1px solid #b2b9c0;
+    border-bottom: 1px solid var(--web-gray-300);
 
     .footerLinkTitle {
       pointer-events: all;

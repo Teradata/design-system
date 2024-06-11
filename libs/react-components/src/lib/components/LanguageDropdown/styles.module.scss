@@ -34,11 +34,11 @@
 }
 
 .languageSelector {
-  background: #f6f7fb;
+  background: var(--web-gray-25);
   border-color: transparent;
   border-radius: 2px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  color: #333a3e;
+  color: var(--web-gray-700);
   overflow: auto;
   position: absolute;
   right: 0;

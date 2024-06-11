@@ -32,6 +32,13 @@ $dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
   // Apply the light theme by default
   @include covalent-theme.components-theme($light-colors, $typography);
   @include code-tokens($typography);
+
+  // Color tokens which are not part of covalent
+  --web-primary-navy: #00233c;
+  --web-gray-25: #f6f7fb;
+  --web-gray-100: #ced3da;
+  --web-gray-300: #b2b9c0;
+  --web-gray-700: #333a3e;
 }
 
 // Dark theme class

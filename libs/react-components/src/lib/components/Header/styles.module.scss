@@ -4,9 +4,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: var(--cv-theme-surface-container-lowest);
   box-sizing: border-box;
-  color: #333a3e;
+  color: var(--web-gray-700);
   font-family: Inter, sans-serif;
   font-size: 16px;
   overflow-x: hidden;
@@ -20,12 +20,12 @@ body {
 }
 
 .siteHeader {
-  background-color: #ffffff;
+  background-color: var(--cv-theme-surface-container-lowest);
 }
 
 .headerUtility {
-  background: #f6f7fb;
-  color: #00233c;
+  background: var(--web-gray-25);
+  color: var(--web-primary-navy);
   font-size: 0.75rem;
   line-height: 1rem;
   min-height: 28px;
@@ -50,13 +50,19 @@ body {
 .headerUtility a {
   text-decoration: none;
   position: relative;
-  background-image: linear-gradient(#00233c, #00233c);
-  background-image: webkit-linear-gradient(#00233c, #00233c);
+  background-image: linear-gradient(
+    var(--web-primary-navy),
+    var(--web-primary-navy)
+  );
+  background-image: webkit-linear-gradient(
+    var(--web-primary-navy),
+    var(--web-primary-navy)
+  );
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 0 1px;
   transition: all 0.25s ease-in-out 0s;
-  color: #00233c;
+  color: var(--web-primary-navy);
   width: 100%;
 }
 
@@ -78,14 +84,14 @@ body {
 
 .headerNav {
   display: none;
-  background-color: #ffffff;
+  background-color: var(--cv-theme-surface-container-lowest);
 }
 
 .headerNav nav {
   height: 88px;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--cv-theme-surface-container-lowest);
 }
 
 .headerNav a,
@@ -101,7 +107,7 @@ body {
 
 .headerNavLogoText {
   font-size: 22px;
-  color: #333a3e;
+  color: var(--web-gray-700);
   letter-spacing: -0.44px;
   margin-left: 16px;
   line-height: 20px;
@@ -151,9 +157,9 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: var(--cv-theme-surface-container-lowest);
   z-index: 200;
-  color: #333a3e;
+  color: var(--web-gray-700);
   letter-spacing: 0;
   -webkit-font-smoothing: antialiased;
   line-height: 26px;
@@ -179,7 +185,7 @@ body {
 }
 
 .headerNavMobileLogoText {
-  color: #333a3e;
+  color: var(--web-gray-700);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1rem;
@@ -208,7 +214,7 @@ body {
 }
 
 .headerNavMobileFooter {
-  background-color: #f6f7fb;
+  background-color: var(--web-gray-25);
   display: flex;
 }
 
@@ -221,7 +227,7 @@ body {
 
 .headerNavMobileFooter a {
   text-decoration: none;
-  color: #333a3e;
+  color: var(--web-gray-700);
   font-size: 0.925rem;
   font-weight: 700;
 }
@@ -242,7 +248,7 @@ body {
 .sidenavHeader {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ced3da;
+  border-bottom: 1px solid var(--web-gray-100);
   justify-content: space-between;
   padding: 1rem;
 

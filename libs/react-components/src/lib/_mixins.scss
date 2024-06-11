@@ -23,7 +23,7 @@
 @mixin caret() {
   .caret {
     content: '';
-    border: solid #333a3e;
+    border: solid var(--web-gray-700);
     border-width: 0 2px 2px 0;
     padding: 3px;
     transform: rotate(45deg);

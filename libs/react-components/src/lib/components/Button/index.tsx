@@ -1,6 +1,11 @@
+import Icon from '../Icon';
 import styles from './styles.module.css';
 
 interface ButtonProps {
+  /**
+   * Icon to be displayed in the button
+   */
+  icon?: string;
   /**
    * The label of the button
    */
@@ -14,9 +19,9 @@ interface ButtonProps {
    */
   size?: 'small' | 'medium' | 'large';
   /**
-   * Background color of the button
+   * Whether the icon is placed in the trailing position
    */
-  backgroundColor?: string;
+  trailingIcon?: boolean;
   /**
    * Click handler for the button
    */
@@ -24,19 +29,24 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({
+  icon,
   label,
   primary,
   size,
-  backgroundColor,
+  trailingIcon,
   onClick,
 }) => {
   return (
     <button
       type="button"
-      className={`${styles.tdButton} ${primary ? styles.tdButtonPrimary : styles.tdButtonSecondary} ${size ? `tdButton${size}` : ''}`}
-      style={{ backgroundColor: backgroundColor }}
+      className={`${styles.tdButton} ${
+        primary ? styles.tdButtonPrimary : styles.tdButtonSecondary
+      } ${size ? `tdButton${size}` : ''} ${
+        trailingIcon ? styles.trailingIcon : ''
+      }`}
       onClick={onClick}
     >
+      {icon && <Icon className={icon} style={{ fontSize: '0.75rem' }} />}
       {label}
     </button>
   );

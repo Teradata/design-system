@@ -1,4 +1,5 @@
 import './styles.scss';
+import Banner from './components/Banner';
 import Button from './components/Button';
 import CodeSnippet from './components/CodeSnippet';
 import { DropdownMenu, DropdownMenuItem } from './components/DropdownMenu';
@@ -16,9 +17,15 @@ import LanguageDropdown, {
   MenuPosition,
 } from './components/LanguageDropdown';
 import NavItem, { NavListItem } from './components/NavItem';
+import Chip from './components/Chip';
+import ChipSet from './components/ChipSet';
+import { Tab, TabBar } from './components/Tabs';
 
 export {
+  Banner,
   Button,
+  Chip,
+  ChipSet,
   CodeSnippet,
   DropdownMenu,
   DropdownMenuItem,
@@ -29,6 +36,8 @@ export {
   IconLink,
   LanguageDropdown,
   NavItem,
+  Tab,
+  TabBar
 };
 
 export type {
