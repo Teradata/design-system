@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/Teradata/design-system/compare/v1.0.4...v1.1.0) (2024-06-11)
+
+
+### Features
+
+* **components:** add chip, banner and tab components ([a288eed](https://github.com/Teradata/design-system/commit/a288eedb9e70679b20e807dccc07810fca5b2f26))
+* **storybook:** add a11y support ([40d29a7](https://github.com/Teradata/design-system/commit/40d29a7791393e8f44bceb32e6c25c3f3efd3a46))
+
 ## [1.0.4](https://github.com/Teradata/design-system/compare/v1.0.3...v1.0.4) (2024-05-28)
 
 
