@@ -26,7 +26,7 @@ const meta = {
   args: {
     content: (
       <>
-        <p>{demoContent}</p>
+        {demoContent}
         <Button label="Get started" icon="fa fa-arrow-right" trailingIcon />
       </>
     ),
