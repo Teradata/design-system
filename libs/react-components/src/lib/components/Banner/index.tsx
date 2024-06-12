@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import styles from './styles.module.scss';
+import Typography from '../Typography';
 
 interface BannerProps {
   /**
@@ -34,8 +35,12 @@ const Banner: React.FC<BannerProps> = ({
   return (
     <div className={`${styles.banner} ${isHero ? styles.bannerHero : ''}`}>
       <section className={styles.bannerInfo}>
-        <h3 className={styles.bannerTitle}>{title}</h3>
-        <div className={styles.bannerContent}>{content}</div>
+        <Typography scale={isHero ? 'headline1' : 'headline3'}>
+          {title}
+        </Typography>
+        <Typography scale={isHero ? 'body1' : 'body2'}>
+          <div className={styles.bannerContent}>{content}</div>
+        </Typography>
       </section>
       <img className={styles.bannerImage} src={imageSrc} alt={imageAltText} />
     </div>
