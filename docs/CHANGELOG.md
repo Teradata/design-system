@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Teradata/design-system/compare/v1.1.0...v1.2.0) (2024-06-13)
+
+
+### Features
+
+* **hero-banner:** add support for hero banner and typography ([019c535](https://github.com/Teradata/design-system/commit/019c5353ca0adc56f2002c032155947a62d6dbbb))
+
 # [1.1.0](https://github.com/Teradata/design-system/compare/v1.0.4...v1.1.0) (2024-06-11)
 
 
