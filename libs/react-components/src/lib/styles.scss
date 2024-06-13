@@ -33,12 +33,61 @@ $dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
   @include covalent-theme.components-theme($light-colors, $typography);
   @include code-tokens($typography);
 
-  // Color tokens which are not part of covalent
+  // Tokens which are not part of covalent
+  --td-web-foreground-icon: #00000099;
   --td-web-gray-25: #f6f7fb;
   --td-web-gray-100: #ced3da;
   --td-web-gray-300: #b2b9c0;
   --td-web-gray-700: #333a3e;
   --td-web-primary-navy: #00233c;
+
+  // Typography tokens
+  --td-web-typography-body-font-family: Inter;
+  --td-web-typography-body-font-weight: 400;
+
+  --td-web-typography-body1-font-size: 20px;
+  --td-web-typography-body1-line-height: 28px;
+
+  --td-web-typography-body2-font-size: calc(
+    var(--td-web-typography-body1-font-size) - 2px
+  );
+  --td-web-typography-body2-line-height: calc(
+    var(--td-web-typography-body1-line-height) - 2px
+  );
+
+  --td-web-typography-body3-font-size: calc(
+    var(--td-web-typography-body1-font-size) - 4px
+  );
+  --td-web-typography-body3-line-height: calc(
+    var(--td-web-typography-body1-line-height) - 4px
+  );
+
+  --td-web-typography-caption-font-family: Inter;
+  --td-web-typography-caption-font-size: 16px;
+  --td-web-typography-caption-font-weight: 600;
+  --td-web-typography-caption-line-height: 20px;
+
+  --td-web-typography-headline1-font-family: Inter;
+  --td-web-typography-headline1-font-size: 54px;
+  --td-web-typography-headline1-font-weight: 300;
+  --td-web-typography-headline1-letter-spacing: -1.62px;
+  --td-web-typography-headline1-line-height: 64px;
+  --td-web-typography-headline1-mb-font-size: 32px;
+  --td-web-typography-headline1-mb-letter-spacing: -0.96px;
+  --td-web-typography-headline1-mb-line-height: 42px;
+
+  --td-web-typography-headline2-font-family: Inter;
+  --td-web-typography-headline2-font-size: 42px;
+  --td-web-typography-headline2-font-weight: 300;
+  --td-web-typography-headline2-letter-spacing: -1.26px;
+  --td-web-typography-headline2-line-height: 52px;
+  --td-web-typography-headline2-mb-letter-spacing: -0.78px;
+
+  --td-web-typography-headline3-font-family: Inter;
+  --td-web-typography-headline3-font-size: 24px;
+  --td-web-typography-headline3-font-weight: 600;
+  --td-web-typography-headline3-letter-spacing: -0.24px;
+  --td-web-typography-headline3-line-height: 34px;
 }
 
 // Dark theme class
