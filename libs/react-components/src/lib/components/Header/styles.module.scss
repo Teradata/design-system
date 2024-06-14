@@ -220,7 +220,7 @@ body {
 
 .headerNavMobileFooter ul {
   margin: 1em 0;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   display: flex;
   align-items: center;
 }
@@ -230,6 +230,18 @@ body {
   color: var(--td-web-gray-700);
   font-size: 0.925rem;
   font-weight: 700;
+}
+
+.headerNavMobileDropdownMenu {
+  overflow: auto;
+}
+
+.headerNavMobileActions {
+  padding: 0 1.5rem;
+
+  li {
+    margin: 1.5rem 0;
+  }
 }
 
 .headerNavMobileSecondaryMenu {

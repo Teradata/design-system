@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import Header from './index';
 import Icon from '../Icon';
+import Button from '../Button';
 
 const meta = {
   title: 'Components/Header',
@@ -86,7 +87,10 @@ const meta = {
         ),
         type: 'search',
       },
-      { actionElement: <Icon className="fa fa-home" />, type: 'button' },
+      {
+        actionElement: <Button icon="fa fa-home" label="Start free demo" />,
+        type: 'button',
+      },
     ],
   },
 } satisfies Meta<typeof Header>;

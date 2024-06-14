@@ -290,6 +290,17 @@ const Header: React.FC<HeaderProps> = ({
                 </div>
 
                 <footer>
+                  <ul
+                    className={`${styles.headerNavActions} ${styles.headerNavElement} ${styles.headerNavMobileActions}`}
+                  >
+                    {headerActions &&
+                      headerActions.map(
+                        (action, index) =>
+                          action.type === 'button' && (
+                            <li key={index}>{action.actionElement}</li>
+                          )
+                      )}
+                  </ul>
                   <div className={styles.headerNavMobileFooter}>
                     <ul>
                       <li>
