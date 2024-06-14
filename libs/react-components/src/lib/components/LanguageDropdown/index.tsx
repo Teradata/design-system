@@ -99,4 +99,6 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
   );
 };
 
+LanguageDropdown.displayName = 'LanguageDropdown';
+
 export default LanguageDropdown;

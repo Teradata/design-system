@@ -20,6 +20,7 @@ import NavItem, { NavListItem } from './components/NavItem';
 import Chip from './components/Chip';
 import ChipSet from './components/ChipSet';
 import { Tab, TabBar } from './components/Tabs';
+import Typography from './components/Typography';
 
 export {
   Banner,
@@ -37,7 +38,8 @@ export {
   LanguageDropdown,
   NavItem,
   Tab,
-  TabBar
+  TabBar,
+  Typography,
 };
 
 export type {

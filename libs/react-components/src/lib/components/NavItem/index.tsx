@@ -154,4 +154,6 @@ const NavItem: React.FC<NavItemProps> = ({
   );
 };
 
+NavItem.displayName = 'NavItem';
+
 export default NavItem;

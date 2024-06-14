@@ -59,4 +59,6 @@ const CodeSnippet: React.FC<CodeSnippetProps> = (props) => {
   );
 };
 
+CodeSnippet.displayName = 'CodeSnippet';
+
 export default CodeSnippet;
