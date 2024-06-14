@@ -261,18 +261,16 @@ const Header: React.FC<HeaderProps> = ({
                   secondaryMenu?.menuElement ? { paddingTop: '6.5rem' } : {}
                 }
               >
-                <div>
-                  <div className={styles.sidenavHeader}>
-                    <h3>{secondaryMenu?.title}</h3>
-                    <img
-                      src={closeIcon}
-                      onClick={handleDocsIconClick}
-                      alt="Docs Menu"
-                    />
-                  </div>
-                  <div className={styles.sidenavContent}>
-                    {secondaryMenu?.menuElement}
-                  </div>
+                <div className={styles.sidenavHeader}>
+                  <h3>{secondaryMenu?.title}</h3>
+                  <img
+                    src={closeIcon}
+                    onClick={handleDocsIconClick}
+                    alt="Docs Menu"
+                  />
+                </div>
+                <div className={styles.sidenavContent}>
+                  {secondaryMenu?.menuElement}
                 </div>
               </Sidenav>
             </aside>
