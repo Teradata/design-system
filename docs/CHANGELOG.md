@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/Teradata/design-system/compare/v1.2.0...v1.3.0) (2024-06-14)
+
+
+### Bug Fixes
+
+* **sidenav:** add a scrollbar when content overflows ([f45d84e](https://github.com/Teradata/design-system/commit/f45d84e75ccac8597300e0f471b1e58475ec03ce))
+* **storybook:** upgrade storybook and fix the source code issue ([c15487d](https://github.com/Teradata/design-system/commit/c15487ded78b20dd8c2f1b0762054fb8af997506))
+
+
+### Features
+
+* **header:** add action buttons to the mobile nav ([19b8726](https://github.com/Teradata/design-system/commit/19b872619f144a3e85c895230485bfdda95f5ea4))
+
 # [1.2.0](https://github.com/Teradata/design-system/compare/v1.1.0...v1.2.0) (2024-06-13)
 
 
