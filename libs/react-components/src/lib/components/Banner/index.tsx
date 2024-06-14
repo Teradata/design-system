@@ -47,4 +47,6 @@ const Banner: React.FC<BannerProps> = ({
   );
 };
 
+Banner.displayName = 'Banner';
+
 export default Banner;

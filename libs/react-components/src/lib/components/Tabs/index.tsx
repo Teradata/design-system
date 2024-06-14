@@ -72,4 +72,7 @@ const TabBar: React.FC<TabBarProps> = ({
   );
 };
 
+Tab.displayName = 'Tab';
+TabBar.displayName = 'TabBar';
+
 export { Tab, TabBar };

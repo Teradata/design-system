@@ -51,4 +51,6 @@ const IconLink: React.FC<IconLinkProps> = ({
   );
 };
 
+IconLink.displayName = 'IconLink';
+
 export default IconLink;

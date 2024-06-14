@@ -15,12 +15,16 @@ interface SidenavProps extends PropsWithChildren, HTMLProps<HTMLDivElement> {
 const Sidenav: React.FC<SidenavProps> = ({ children, show, left, style }) => {
   return (
     <div
-      className={`${styles.sidenav} ${show ? styles.show : ''} ${left ? styles.left : styles.right}`}
+      className={`${styles.sidenav} ${show ? styles.show : ''} ${
+        left ? styles.left : styles.right
+      }`}
       style={style}
     >
       {children}
     </div>
   );
 };
+
+Sidenav.displayName = 'Sidenav';
 
 export default Sidenav;

@@ -79,4 +79,6 @@ const ChipSet: React.FC<ChipSetProps> = ({
   );
 };
 
+ChipSet.displayName = 'ChipSet';
+
 export default ChipSet;

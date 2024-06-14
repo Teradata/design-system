@@ -26,4 +26,6 @@ const Typography: React.FC<TypographyProps> = ({
   );
 };
 
+Typography.displayName = 'Typography';
+
 export default Typography;

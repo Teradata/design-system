@@ -7,4 +7,6 @@ const Icon: React.FC<React.HTMLProps<HTMLSpanElement>> = ({
   return <i className={className} style={style}></i>;
 };
 
+Icon.displayName = 'Icon';
+
 export default Icon;

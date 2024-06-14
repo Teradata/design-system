@@ -15,9 +15,13 @@ interface BlackoutProps {
 const Blackout: React.FC<BlackoutProps> = ({ active = false, className }) => {
   return (
     <div
-      className={`${styles.pageBlackout} ${active ? styles.show : ''} ${className}`}
+      className={`${styles.pageBlackout} ${
+        active ? styles.show : ''
+      } ${className}`}
     ></div>
   );
 };
+
+Blackout.displayName = 'Blackout';
 
 export default Blackout;
