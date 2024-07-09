@@ -58,6 +58,7 @@ const TabBar: React.FC<TabBarProps> = ({
         <ChipSet
           onChipSelect={onTabChange}
           defaultSelected={defaultSelectedTab}
+          className={styles.chipSet}
         >
           {children.map((child, index) => {
             const { label } = (child as ReactElement<TabProps>).props;

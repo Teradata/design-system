@@ -8,6 +8,10 @@ interface BannerProps {
    */
   content: ReactNode;
   /**
+   * Custom styles for the banner image.
+   */
+  imageClassName?: string;
+  /**
    * Source for the banner image.
    */
   imageSrc: string;
@@ -27,8 +31,9 @@ interface BannerProps {
 
 const Banner: React.FC<BannerProps> = ({
   content = '',
-  imageSrc = '',
   imageAltText = 'Banner Image',
+  imageClassName = '',
+  imageSrc = '',
   isHero = false,
   title = '',
 }) => {
@@ -42,7 +47,11 @@ const Banner: React.FC<BannerProps> = ({
           <div className={styles.bannerContent}>{content}</div>
         </Typography>
       </section>
-      <img className={styles.bannerImage} src={imageSrc} alt={imageAltText} />
+      <img
+        className={`${styles.bannerImage} ${imageClassName}`}
+        src={imageSrc}
+        alt={imageAltText}
+      />
     </div>
   );
 };
