@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Teradata/design-system/compare/v1.3.0...v1.3.1) (2024-07-10)
+
+
+### Bug Fixes
+
+* **banner:** fix banner styles for tablet breakpoint ([d84110e](https://github.com/Teradata/design-system/commit/d84110e4d89fa33242c3ac56a70e34a64b711c39))
+
 # [1.3.0](https://github.com/Teradata/design-system/compare/v1.2.0...v1.3.0) (2024-06-14)
 
 
