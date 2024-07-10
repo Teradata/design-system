@@ -51,6 +51,24 @@ const meta = {
           title="This is another demo title"
         />
       </Tab>,
+      <Tab key="tab3" label="Tab 3">
+        <Banner
+          content={<p>{demoContent}</p>}
+          imageSrc={
+            'https://www.teradata.com/getmedia/b6c99212-cd32-42ec-beec-a12436b0296a/roles-data_leader.svg?origin=fd'
+          }
+          title="This is another demo title tab 3"
+        />
+      </Tab>,
+      <Tab key="tab4" label="Tab 4">
+        <Banner
+          content={<p>{demoContent}</p>}
+          imageSrc={
+            'https://www.teradata.com/getmedia/b6c99212-cd32-42ec-beec-a12436b0296a/roles-data_leader.svg?origin=fd'
+          }
+          title="This is another demo title tab 4"
+        />
+      </Tab>,
     ],
   },
 } satisfies Meta<typeof TabBar>;

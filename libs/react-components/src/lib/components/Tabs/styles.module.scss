@@ -1,6 +1,10 @@
+.chipSet {
+  flex: 1;
+  justify-content: center;
+}
+
 .tabBar {
   display: flex;
-  justify-content: center;
   overflow-x: auto;
   scrollbar-width: none;
 }

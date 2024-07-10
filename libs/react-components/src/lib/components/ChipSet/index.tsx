@@ -1,8 +1,14 @@
-import React, { ReactElement, ReactNode, useEffect, useState } from 'react';
+import React, {
+  HTMLProps,
+  ReactElement,
+  ReactNode,
+  useEffect,
+  useState,
+} from 'react';
 import styles from './styles.module.scss';
 import Chip from '../Chip';
 
-interface ChipSetProps {
+interface ChipSetProps extends HTMLProps<HTMLDivElement> {
   /**
    * Child nodes or children passed to the ChipSet.
    */
@@ -27,6 +33,7 @@ interface ChipSetProps {
 
 const ChipSet: React.FC<ChipSetProps> = ({
   children,
+  className = '',
   defaultSelected,
   multiSelect = false,
   onChipSelect,
@@ -62,7 +69,7 @@ const ChipSet: React.FC<ChipSetProps> = ({
   }, [defaultSelected]);
 
   return (
-    <div className={styles.chipSet}>
+    <div className={`${styles.chipSet} ${className}`}>
       {chips.map((chip) => {
         const { label } = (chip as ReactElement).props;
         return (
