@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/Teradata/design-system/compare/v1.3.1...v1.4.0) (2024-07-12)
+
+
+### Features
+
+* **card:** adding initial component for the card ([6a119fa](https://github.com/Teradata/design-system/commit/6a119fa9dd7087e404c25c2e45d540fd7b928aeb))
+
 ## [1.3.1](https://github.com/Teradata/design-system/compare/v1.3.0...v1.3.1) (2024-07-10)
 
 
