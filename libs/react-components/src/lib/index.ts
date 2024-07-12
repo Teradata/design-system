@@ -1,6 +1,7 @@
 import './styles.scss';
 import Banner from './components/Banner';
 import Button from './components/Button';
+import Card from './components/Card';
 import CodeSnippet from './components/CodeSnippet';
 import { DropdownMenu, DropdownMenuItem } from './components/DropdownMenu';
 import Footer, {
@@ -25,6 +26,7 @@ import Typography from './components/Typography';
 export {
   Banner,
   Button,
+  Card,
   Chip,
   ChipSet,
   CodeSnippet,
