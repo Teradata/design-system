@@ -214,6 +214,23 @@ const meta = {
         href: 'https://www.teradata.com/how-we-help#tracking-consent',
       },
     ],
+    linksOfInterest: {
+      title: 'Also of interest',
+      items: [
+        {
+          label: 'Drive ROI with Trusted AI today',
+          href: 'https://www.teradata.com/platform/ai-ml',
+        },
+        {
+          label: 'Big data',
+          href: 'https://www.teradata.com/solutions/big-data',
+        },
+        {
+          label: 'Become an expert at defending your data',
+          href: 'https://www.teradata.com/insights/data-security',
+        },
+      ],
+    },
     copyright: '2024 Teradata. All Rights Reserved',
   },
 } satisfies Meta<typeof Footer>;
