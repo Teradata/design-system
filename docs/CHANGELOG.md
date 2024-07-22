@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/Teradata/design-system/compare/v1.4.0...v1.5.0) (2024-07-22)
+
+
+### Features
+
+* **footer:** add links of interest section ([495d757](https://github.com/Teradata/design-system/commit/495d7576e3cd4168a1f01ea04c3e705f0781830f))
+
 # [1.4.0](https://github.com/Teradata/design-system/compare/v1.3.1...v1.4.0) (2024-07-12)
 
 
