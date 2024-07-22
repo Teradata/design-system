@@ -6,7 +6,7 @@
   display: inline-block;
   font-family: var(--mdc-typography-subtitle1-font-family);
   font-weight: var(--mdc-typography-subtitle1-font-weight);
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.75rem;
   transition: all 0.25s ease-in-out 0s;
   white-space: nowrap;
 
@@ -24,4 +24,10 @@
   border-color: var(--td-web-primary-navy);
   color: var(--cv-theme-surface-container-lowest);
   cursor: default;
+}
+
+@media screen and (min-width: 1024px) {
+  .chip {
+    padding: 1rem 1.5rem;
+  }
 }
