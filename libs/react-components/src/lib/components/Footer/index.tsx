@@ -140,8 +140,10 @@ const Footer: React.FC<FooterProps> = ({
           </ul>
         </section>
       )}
-      <footer className={`${styles.containerWide} ${styles.footer}`}>
-        <section className={`${styles.footerLinksWrapper}`}>
+      <footer className={`${styles.footer}`}>
+        <section
+          className={`${styles.containerWide} ${styles.footerLinksWrapper}`}
+        >
           {links &&
             links.map((link, index) => (
               <FooterNavLinkList
@@ -170,7 +172,9 @@ const Footer: React.FC<FooterProps> = ({
             </div>
           )}
         </section>
-        <section className={`${styles.copyrightWrapper}`}>
+        <section
+          className={`${styles.containerWide} ${styles.copyrightWrapper}`}
+        >
           <div className={styles.copyrightLinks}>
             <div className={styles.copyrightText}>&copy;{copyright}</div>
             {legalLinks && (
