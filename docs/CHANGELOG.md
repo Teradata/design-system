@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/Teradata/design-system/compare/v1.5.0...v1.5.1) (2024-07-24)
+
+
+### Bug Fixes
+
+* **footer:** adjust styles for footer to occupy full width ([924f73f](https://github.com/Teradata/design-system/commit/924f73fcf1a8ffbe23e9c64b6852b5d02f890d66))
+
 # [1.5.0](https://github.com/Teradata/design-system/compare/v1.4.0...v1.5.0) (2024-07-22)
 
 
