@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/Teradata/design-system/compare/v1.6.0...v1.7.0) (2024-07-25)
+
+
+### Features
+
+* **react:** adding breadcrumb and list item components ([6d6b0a8](https://github.com/Teradata/design-system/commit/6d6b0a87286b9961509a18765093083d1ade4657))
+* **react:** adding breadcrumb and list item components ([f078d90](https://github.com/Teradata/design-system/commit/f078d903c2637197151db033c5d6f91656f40119))
+
 # [1.6.0](https://github.com/Teradata/design-system/compare/v1.5.1...v1.6.0) (2024-07-25)
 
 
