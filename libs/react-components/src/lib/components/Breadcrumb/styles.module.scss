@@ -1,0 +1,48 @@
+
+
+.breadcrumb {
+    font-size: .75rem;
+    line-height: 1rem;
+    
+    ul {
+        list-style: none;
+        display: inline;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-flex;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px; 
+                display: inline-flex;
+                align-items: center;
+                color: #00233c;
+                transition: color 250ms;
+
+                &:after {
+                    content: 'chevron_right';
+                    font-family: 'Material Symbols Outlined';
+                    margin:0 .25rem;
+                    color: var(--td-web-primary-navy);
+
+                }
+                &:hover {
+                    color: var(--cv-theme-tertiary);
+                }
+            }
+
+            &:last-child a {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
