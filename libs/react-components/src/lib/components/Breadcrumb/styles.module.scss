@@ -30,11 +30,11 @@
                     content: 'chevron_right';
                     font-family: 'Material Symbols Outlined';
                     margin:0 .25rem;
-                    color: #00233c;
+                    color: var(--td-web-primary-navy);
 
                 }
                 &:hover {
-                    color: #ff5f02;
+                    color: var(--cv-theme-tertiary);
                 }
             }
 

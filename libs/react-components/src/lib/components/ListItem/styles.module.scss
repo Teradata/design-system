@@ -7,7 +7,7 @@
     font-weight: 400;
     line-height: 20px;
     border-radius: var(--mdc-list-side-padding, 16px);
-    color: --cv-theme-on-secondary-container;
+    color: var(--cv-theme-on-secondary-container);
     align-items: center;
     display: flex;
     transition: background 200ms cubic-bezier(0.08,0.52,0.52,1);
