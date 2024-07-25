@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/Teradata/design-system/compare/v1.5.1...v1.6.0) (2024-07-25)
+
+
+### Bug Fixes
+
+* **card:** change image direction description ([b7d2c2b](https://github.com/Teradata/design-system/commit/b7d2c2ba3afda7edfce4d683e37c8850e08ecfb4))
+
+
+### Features
+
+* **card:** ability to add images ([a2ff2ee](https://github.com/Teradata/design-system/commit/a2ff2ee6b1f647b7b9b07d4b6c1d35f8601dea89))
+
 ## [1.5.1](https://github.com/Teradata/design-system/compare/v1.5.0...v1.5.1) (2024-07-24)
 
 
