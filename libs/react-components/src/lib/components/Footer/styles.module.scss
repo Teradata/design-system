@@ -8,14 +8,13 @@
 
 .footer {
   margin: 0;
-  padding-bottom: 40px;
+  padding: 20px 0 40px;
 }
 
 .footerLinksWrapper {
   align-items: flex-start;
   display: flex;
   flex-wrap: nowrap;
-  padding-top: 20px;
 }
 
 .footerLink {
@@ -26,10 +25,13 @@
 .footerLinkTitle {
   color: var(--td-web-primary-navy);
   font-weight: 600;
-  padding-bottom: 1rem;
   line-height: 28px;
   position: relative;
   pointer-events: none;
+}
+
+.socialLinksWrapper .footerLinkTitle {
+  padding-bottom: 1rem;
 }
 
 .footerLinkItem {
@@ -132,11 +134,7 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding-bottom: 40px;
-  }
-
-  .footerLinksWrapper {
-    padding-top: 60px;
+    padding: 60px 0 40px;
   }
 
   .legalLinksWrapper .footerLinkItem {
