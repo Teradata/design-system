@@ -140,11 +140,7 @@ const Footer: React.FC<FooterProps> = ({
           </ul>
         </section>
       )}
-      <footer
-        className={`${styles.footer} ${
-          linksOfInterest ? styles.paddingTop : ''
-        }`}
-      >
+      <footer className={styles.footer}>
         <section
           className={`${styles.containerWide} ${styles.footerLinksWrapper}`}
         >

@@ -15,7 +15,7 @@ interface CardProps {
    */
   imageAltText?: string;
   /**
-   * Image to be displayed in the card
+   * Image position in the card
    */
   imageDirection?: 'left' | 'right' | 'top' | 'bottom';
   /**
