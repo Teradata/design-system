@@ -1,9 +1,11 @@
 import type { StorybookConfig } from '@storybook/react-vite';
-import { resolve } from 'path';
+import { join, resolve } from 'path';
 import { terser } from 'rollup-plugin-terser';
 
 const config: StorybookConfig = {
   stories: ['../src/lib/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
+
+  staticDirs: [join(__dirname, './public')],
 
   addons: [
     '@storybook/addon-essentials',
