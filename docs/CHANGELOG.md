@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/Teradata/design-system/compare/v1.7.0...v1.8.0) (2024-08-02)
+
+
+### Features
+
+* **theme:** add teradata theming ([183fbb3](https://github.com/Teradata/design-system/commit/183fbb31a5968987ddc30a9a1bb67e56ab266a68))
+
 # [1.7.0](https://github.com/Teradata/design-system/compare/v1.6.0...v1.7.0) (2024-07-25)
 
 
