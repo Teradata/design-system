@@ -15,6 +15,7 @@ const meta = {
   },
   args: {
     title: 'Developers',
+    titleLink: 'https://developers.teradata.com/',
     navItems: [
       {
         href: 'test',

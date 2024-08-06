@@ -24,6 +24,7 @@
 
 .footerLinkTitle {
   color: var(--td-web-primary-navy);
+  font-size: 18px;
   font-weight: 600;
   line-height: 28px;
   position: relative;
@@ -62,9 +63,10 @@
 }
 
 .socialLinksList {
-  display: grid;
-  grid-template-columns: repeat(3, 0fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 1rem 0.75rem;
+  padding-top: 1rem;
 }
 
 .legalLinksWrapper {
@@ -107,12 +109,6 @@
   color: var(--td-web-primary-navy);
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
 }
 
 .linksOfInterest {
@@ -130,6 +126,12 @@
 
 .linkOfInterest a {
   font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -191,7 +193,7 @@
 
     .footerLinkTitle {
       pointer-events: all;
-
+      font-size: 1rem;
       padding: 1rem 0;
       display: flex;
       align-items: center;
@@ -212,7 +214,7 @@
   }
 
   .socialLinksList {
-    grid-template-columns: repeat(4, 1fr);
+    max-width: 215px;
   }
 
   .socialLinksWrapper {
