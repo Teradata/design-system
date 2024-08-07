@@ -163,7 +163,7 @@ const Footer: React.FC<FooterProps> = ({
                     <IconLink
                       iconName={item.icon}
                       href={item.href}
-                      size={12}
+                      size={14}
                       label={item.label}
                     />
                   </li>
