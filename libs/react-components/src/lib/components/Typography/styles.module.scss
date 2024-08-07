@@ -16,7 +16,7 @@
   @extend %headline-styles;
   /* Desktop/H1 */
   font-family: var(--td-web-typography-headline1-font-family);
-  font-size: var(--td-web-typography-headline1-font-size);
+  font-size: var(--td-web-typography-headline1-font-size); // 54px
   font-weight: var(--td-web-typography-headline1-font-weight);
   line-height: var(--td-web-typography-headline1-line-height);
   letter-spacing: var(--td-web-typography-headline1-letter-spacing);
@@ -95,9 +95,9 @@
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 568px) {
   .headline1 {
-    font-size: var(--td-web-typography-headline1-mb-font-size);
+    font-size: var(--td-web-typography-headline1-mb-font-size); // 32px
     line-height: var(--td-web-typography-headline1-mb-line-height);
     letter-spacing: var(--td-web-typography-headline1-mb-letter-spacing);
   }
