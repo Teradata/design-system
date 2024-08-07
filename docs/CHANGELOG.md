@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/Teradata/design-system/compare/v1.8.0...v1.9.0) (2024-08-07)
+
+
+### Features
+
+* **header:** pass title link as a prop ([bb6d827](https://github.com/Teradata/design-system/commit/bb6d827c59c68b8f3e7b85893e9a9cbbff77ae16))
+
 # [1.8.0](https://github.com/Teradata/design-system/compare/v1.7.0...v1.8.0) (2024-08-02)
 
 
