@@ -53,6 +53,7 @@ const NavItem: React.FC<NavItemProps> = ({
   href,
   nestedNavItems = [],
   label,
+  external,
   onClick,
   onMenuChange,
 }) => {
@@ -120,7 +121,8 @@ const NavItem: React.FC<NavItemProps> = ({
                   >
                     <a
                       href={item.href}
-                      target="_self"
+                      target={item.external ? '_blank' : '_self'}
+                      rel="noreferrer"
                       className={`${item.external ? styles.externalLink : ''} ${
                         item.active ? styles.active : ''
                       }`}
@@ -143,7 +145,8 @@ const NavItem: React.FC<NavItemProps> = ({
       ) : (
         <a
           href={href}
-          target="_self" // TODO: remove this
+          target={external ? '_blank' : '_self'}
+          rel="noreferrer"
           className={`${styles.navItemLink} ${active ? styles.active : ''}`}
           onClick={handleClick}
         >

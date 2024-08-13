@@ -96,7 +96,12 @@ export const FooterNavLinkItem: React.FC<FooterNavLink> = ({
 }) => {
   return (
     <li className={styles.footerLinkItem}>
-      <a href={href} className={styles.footerNavLink}>
+      <a
+        href={href}
+        className={styles.footerNavLink}
+        target={external ? '_blank' : '_self'}
+        rel="noreferrer"
+      >
         {label}
         {external && (
           <img

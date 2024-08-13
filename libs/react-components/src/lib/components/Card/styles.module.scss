@@ -73,7 +73,7 @@
 }
 
 .cardImage {
-  flex: 0 0 350px;
+  flex: 0 0 var(--td-web-card-img-width);
 
   img {
     display: block;

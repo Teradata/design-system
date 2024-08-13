@@ -33,13 +33,18 @@ const Card: React.FC<CardProps> = ({
   imageAltText,
   imageDirection = 'left',
   imageSrc,
-  imageWidth = '35%',
+  imageWidth = '350px',
   title,
 }) => {
   return (
     <div className={`${styles.card} ${styles[imageDirection]}`}>
       {imageSrc && (
-        <div className={styles.cardImage} style={{ flex: `0 0 ${imageWidth}` }}>
+        <div
+          className={styles.cardImage}
+          style={
+            { '--td-web-card-img-width': imageWidth } as React.CSSProperties
+          }
+        >
           <img src={imageSrc} alt={imageAltText} />
         </div>
       )}
