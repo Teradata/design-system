@@ -1,3 +1,11 @@
+## [1.9.1](https://github.com/Teradata/design-system/compare/v1.9.0...v1.9.1) (2024-08-13)
+
+
+### Bug Fixes
+
+* **footer:** fix leaked list styles ([8d0725f](https://github.com/Teradata/design-system/commit/8d0725f749b1a1fb1a3a569ac558cc13f5944f7b))
+* **links:** open external links in new tab ([956b84b](https://github.com/Teradata/design-system/commit/956b84bde9731c37af0ce37f11600524a9cb3aca))
+
 # [1.9.0](https://github.com/Teradata/design-system/compare/v1.8.0...v1.9.0) (2024-08-07)
 
 
