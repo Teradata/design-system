@@ -3,10 +3,11 @@
   "version": "1.9.0",
   "license": "MIT",
   "scripts": {
-    "semantic-release": "semantic-release --branches main",
     "build-storybook": "nx run react-components:build-storybook",
     "format:check": "nx format",
-    "release:prepare": "npx nx run-many --target=build --all && node ./scripts/version-placeholder ./dist"
+    "release:prepare": "npx nx run-many --target=build --all && node ./scripts/version-placeholder ./dist",
+    "semantic-release": "semantic-release --branches main",
+    "storybook": "nx run react-components:storybook"
   },
   "dependencies": {
     "react": "18.3.1",
