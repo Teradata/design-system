@@ -88,18 +88,6 @@ $dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
   --td-web-typography-headline3-font-weight: 600;
   --td-web-typography-headline3-letter-spacing: -0.24px;
   --td-web-typography-headline3-line-height: 34px;
-
-  //Alert mat disclaimer
-  --primary-bg-color: #DEEAFA;
-  --cv-theme-on-primary-container: #00115A;
-  --link-color: #001D33;
-  --modal-bg-color: rgba(0, 0, 0, 0.4);
-  --modal-content-bg: #fff;
-  --modal-close-color: #aaa;
-  --modal-close-hover: black;
-  --header-text-color: rgba(0, 0, 0, .87);
-  --text-disclaimer-color: rgba(0, 0, 0, .87);
-  --spacer-color: #e6e6e6;
 }
 
 // Dark theme class
