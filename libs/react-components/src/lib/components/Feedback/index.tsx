@@ -10,7 +10,7 @@ interface FeedbackProps {
   onFeedBack: (feedback: string) => void; // Callback function to handle feedback submission
 }
 
-const FeedbackComponent: React.FC<FeedbackProps> = ({
+export const Feedback: React.FC<FeedbackProps> = ({
   label = 'Did this page help?',
   labelForFeedback = 'Thank you for your feedback!',
   onFeedBack,
@@ -48,4 +48,4 @@ const FeedbackComponent: React.FC<FeedbackProps> = ({
   );
 };
 
-export default FeedbackComponent;
+export default Feedback;

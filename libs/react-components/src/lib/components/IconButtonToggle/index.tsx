@@ -35,7 +35,7 @@ const IconButtonToggleComponent = createComponent({
   react: React,
 });
 
-const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
+export const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
   offIcon,
   onIcon,
   ariaLabel,
@@ -56,4 +56,4 @@ const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
 
 IconButtonToggle.displayName = 'IconButtonToggle';
 
-export default IconButtonToggleComponent;
+export default IconButtonToggle;
