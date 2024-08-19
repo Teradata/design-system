@@ -2,7 +2,6 @@ import { CovalentAlert } from '@covalent/components/alert';
 import { createComponent } from '@lit/react';
 import React from 'react';
 import '@covalent/components/icon';
-import styles from './styles.module.scss';
 
 interface AlertProps {
   icon: string;
@@ -18,9 +17,7 @@ const AlertComponent = createComponent({
 
 const Alert: React.FC<AlertProps> = (props) => {
   return (
-    <div className={styles.alertWrapper}>
       <AlertComponent {...props}></AlertComponent>
-    </div>
   );
 };
 
