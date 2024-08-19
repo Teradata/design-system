@@ -4,10 +4,22 @@ import React from 'react';
 import '@covalent/components/icon';
 
 interface AlertProps {
-  icon: string;
-  titleText: string;
-  descriptionText: string;
-  state: string;
+    /** 
+     * Icon of the alert 
+     */
+    icon: string;
+    /**
+     * Title of the alert
+     */
+    titleText: string;
+    /**
+     * Description of the alert
+     */
+    descriptionText: string;
+    /** 
+     * State of the button
+     */
+    state: string;
 }
 const AlertComponent = createComponent({
   tagName: 'cv-alert',
