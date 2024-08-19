@@ -24,8 +24,10 @@ import Chip from './components/Chip';
 import ChipSet from './components/ChipSet';
 import { Tab, TabBar } from './components/Tabs';
 import Typography from './components/Typography';
+import Alert from './components/Alert';
 
 export {
+  Alert,
   Banner,
   Breadcrumb,
   Button,
