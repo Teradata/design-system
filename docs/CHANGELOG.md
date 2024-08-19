@@ -1,3 +1,11 @@
+# [1.10.0](https://github.com/Teradata/design-system/compare/v1.9.1...v1.10.0) (2024-08-19)
+
+
+### Features
+
+* **feedback:** adding feedback and iconButtonToggle component ([995ce8d](https://github.com/Teradata/design-system/commit/995ce8df67791bbd26a3dbd08e8b49b4a2251071))
+* **feedback:** adding to exports barrel file ([5339302](https://github.com/Teradata/design-system/commit/5339302d4c1e5d8de2f4cf0f1594bc1d90512000))
+
 ## [1.9.1](https://github.com/Teradata/design-system/compare/v1.9.0...v1.9.1) (2024-08-13)
 
 
