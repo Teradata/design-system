@@ -5,6 +5,7 @@ import Button from './components/Button';
 import Card from './components/Card';
 import CodeSnippet from './components/CodeSnippet';
 import { DropdownMenu, DropdownMenuItem } from './components/DropdownMenu';
+import { Feedback } from './components/Feedback';
 import Footer, {
   FooterNavLink,
   FooterLink,
@@ -13,6 +14,7 @@ import Footer, {
 import Header, { HeaderAction } from './components/Header';
 import Icon from './components/Icon';
 import IconButton from './components/IconButton';
+import IconButtonToggle from './components/IconButtonToggle';
 import IconLink from './components/IconLink';
 import LanguageDropdown, {
   Language,
@@ -35,10 +37,12 @@ export {
   CodeSnippet,
   DropdownMenu,
   DropdownMenuItem,
+  Feedback,
   Footer,
   Header,
   Icon,
   IconButton,
+  IconButtonToggle,
   IconLink,
   LanguageDropdown,
   ListItem,
