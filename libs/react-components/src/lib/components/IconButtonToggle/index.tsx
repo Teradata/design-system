@@ -51,7 +51,9 @@ export const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
     'aria-haspopup': ariaHasPopup,
     onClick,
   };
-  return <IconButtonToggleComponent {...customProps}></IconButtonToggleComponent>;
+  return (
+    <IconButtonToggleComponent {...customProps}></IconButtonToggleComponent>
+  );
 };
 
 IconButtonToggle.displayName = 'IconButtonToggle';

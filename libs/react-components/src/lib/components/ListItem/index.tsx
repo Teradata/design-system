@@ -29,11 +29,25 @@ const ListItem: React.FC<ListItemProps> = ({ label, active, content }) => {
   };
   return (
     <>
-      <div className={`${styles.listItem} ${activeStyles}`} onClick={toggleActive}>
-        { hasContent && <button aria-label={`Expand nav category '${label}'`} aria-expanded="false" type="button" className={styles.caret}></button>}
+      <div
+        className={`${styles.listItem} ${activeStyles}`}
+        onClick={toggleActive}
+      >
+        {hasContent && (
+          <button
+            aria-label={`Expand nav category '${label}'`}
+            aria-expanded="false"
+            type="button"
+            className={styles.caret}
+          ></button>
+        )}
         <span>{label}</span>
       </div>
-      {content && <div className={`${styles.content} ${contentActiveStyles}`}>{content}</div>}
+      {content && (
+        <div className={`${styles.content} ${contentActiveStyles}`}>
+          {content}
+        </div>
+      )}
     </>
   );
 };

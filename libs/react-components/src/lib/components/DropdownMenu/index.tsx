@@ -21,7 +21,9 @@ export const DropdownMenuItem: React.FC<DropdownMenuItemProps> = ({
   };
   return (
     <li
-      className={`${styles.dropdownMenuItem} ${navItem.navItems ? styles.nested : ''}`}
+      className={`${styles.dropdownMenuItem} ${
+        navItem.navItems ? styles.nested : ''
+      }`}
     >
       {navItem.navItems ? (
         <div
