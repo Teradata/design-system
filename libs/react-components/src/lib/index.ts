@@ -27,6 +27,7 @@ import ChipSet from './components/ChipSet';
 import { Tab, TabBar } from './components/Tabs';
 import Typography from './components/Typography';
 import Alert from './components/Alert';
+import Dialog from './components/Dialog';
 
 export {
   Alert,
@@ -36,6 +37,7 @@ export {
   Card,
   Chip,
   ChipSet,
+  Dialog,
   CodeSnippet,
   DropdownMenu,
   DropdownMenuItem,

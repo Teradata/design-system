@@ -26,6 +26,8 @@ interface ButtonProps {
    * Click handler for the button
    */
   onClick?: () => void;
+
+  slot?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
