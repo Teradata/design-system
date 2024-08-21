@@ -1,8 +1,6 @@
 import { CovalentDialog } from '@covalent/components/dialog';
 import { createComponent } from '@lit/react';
 import React from 'react';
-import Button from '../Button';
-
 interface DialogProps {
     /**
      * Opens the dialog when true
@@ -50,15 +48,7 @@ const DialogComponent = createComponent({
 
 const Dialog: React.FC<DialogProps> = (props) => {
   return (
-    <DialogComponent {...props}>
-        <div >Sample dialog content</div>
-        <div slot="secondaryAction">
-            <Button label="Cancel" primary={false} slot="secondaryAction" />
-        </div>
-        <div slot="primaryAction">
-            <Button label="Close" primary={true} slot="primaryAction" /> 
-        </div>
-    </DialogComponent>
+    <DialogComponent {...props}></DialogComponent>
   );
 };
 

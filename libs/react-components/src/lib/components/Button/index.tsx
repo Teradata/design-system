@@ -26,7 +26,9 @@ interface ButtonProps {
    * Click handler for the button
    */
   onClick?: () => void;
-
+  /**
+   * The slot it should be added in when used inside a litjs component
+   */
   slot?: string;
 }
 
