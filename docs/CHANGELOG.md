@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/Teradata/design-system/compare/v1.10.0...v1.10.1) (2024-08-22)
+
+
+### Bug Fixes
+
+* **lint:** fix linting errors in all components ([2288bfb](https://github.com/Teradata/design-system/commit/2288bfb01fb11a73f290f41ee5deeb9644870286))
+
 # [1.10.0](https://github.com/Teradata/design-system/compare/v1.9.1...v1.10.0) (2024-08-19)
 
 
