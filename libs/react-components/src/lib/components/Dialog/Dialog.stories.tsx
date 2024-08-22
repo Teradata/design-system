@@ -12,15 +12,15 @@ const meta = {
     layout: 'fullscreen',
   },
   args: {
-    open:true,
-    hideActions:false,
-    stacked:false,
-    heading:'Sample dialog title',
-    scrimClickAction:'',
-    escapeKeyAction:'',
-    defaultAction:'close',
-    actionAttribute:'dialogAction',
-    initialFocusAttribute:'dialogInitialFocus',
+    open: true,
+    hideActions: false,
+    stacked: false,
+    heading: 'Sample dialog title',
+    scrimClickAction: '',
+    escapeKeyAction: '',
+    defaultAction: 'close',
+    actionAttribute: 'dialogAction',
+    initialFocusAttribute: 'dialogInitialFocus',
   },
 } satisfies Meta<typeof Dialog>;
 
@@ -28,18 +28,17 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Basic: Story = {
-    render: (args) => {
-      return (
-        <Dialog {...args}>
-            <div >Sample dialog content</div>
-            <div slot="secondaryAction">
-                <Button label="Cancel" primary={false} slot="secondaryAction" />
-            </div>
-            <div slot="primaryAction">
-                <Button label="Close" primary={true} slot="primaryAction" /> 
-            </div>
-        </Dialog>
-      );
-    },
-  };
-
+  render: (args) => {
+    return (
+      <Dialog {...args}>
+        <div>Sample dialog content</div>
+        <div slot="secondaryAction">
+          <Button label="Cancel" primary={false} slot="secondaryAction" />
+        </div>
+        <div slot="primaryAction">
+          <Button label="Close" primary={true} slot="primaryAction" />
+        </div>
+      </Dialog>
+    );
+  },
+};
