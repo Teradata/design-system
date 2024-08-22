@@ -28,7 +28,7 @@ export const ActionElements: Story = {
   render: (args) => {
     return (
       <Alert {...args}>
-          <IconButton slot="action-items" icon="close" />
+        <IconButton slot="action-items" icon="close" />
       </Alert>
     );
   },

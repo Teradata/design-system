@@ -15,7 +15,7 @@ const meta = {
     label: 'Did this page help?',
     labelForFeedback: 'Thank you for your feedback!',
     onFeedBack: action('onFeedBack'),
-  }
+  },
 } satisfies Meta<typeof Feedback>;
 
 export default meta;
