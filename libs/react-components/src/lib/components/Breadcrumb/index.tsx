@@ -9,15 +9,15 @@ interface BreadcrumbProps {
 
 const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
   return (
-      <nav className={styles.breadcrumb}>
-        <ul>
-            {items.map((item, index) => (
-                <li key={index}>
-                    <a href={item.link}>{item.label}</a>
-                </li>
-            ))}
-        </ul>
-      </nav>
+    <nav className={styles.breadcrumb}>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>
+            <a href={item.link}>{item.label}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 };
 
