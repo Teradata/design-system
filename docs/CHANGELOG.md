@@ -1,3 +1,13 @@
+# [1.11.0](https://github.com/Teradata/design-system/compare/v1.10.1...v1.11.0) (2024-08-22)
+
+
+### Features
+
+* **dialog:** adding dialog box for alert and a slot for button component ([21e0087](https://github.com/Teradata/design-system/commit/21e0087843ccd23371542fcad6b5be5d89a9b273))
+* **dialog:** keep alphabetical order ([660b349](https://github.com/Teradata/design-system/commit/660b349b338029cf6ad6c2eba8cd682f4d2ea42d))
+* **dialog:** prettier fixes ([70522c1](https://github.com/Teradata/design-system/commit/70522c10e5b07fb4c0803f036fc37550d5acc346))
+* **dialog:** remove harcoded content ([546d8a9](https://github.com/Teradata/design-system/commit/546d8a9ecfd546bf26363262824419f17dc15080))
+
 ## [1.10.1](https://github.com/Teradata/design-system/compare/v1.10.0...v1.10.1) (2024-08-22)
 
 
