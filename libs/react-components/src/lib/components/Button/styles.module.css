@@ -43,3 +43,12 @@
     border-color: var(--td-web-primary-navy);
   }
 }
+
+.tdButtonText{
+  background: transparent;
+  color: var(--td-web-primary-navy);
+  border: none;
+  &:hover {
+    background: rgba(0, 35, 60, 0.15);
+  }
+}
