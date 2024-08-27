@@ -49,6 +49,6 @@
   color: var(--td-web-primary-navy);
   border: none;
   &:hover {
-    background: var(--td-web-primary-navy-hover); 
+    background: var(--cv-theme-light-colors-on-surface); 
   }
 }

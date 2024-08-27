@@ -40,7 +40,6 @@ $dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
   --td-web-gray-300: #b2b9c0;
   --td-web-gray-700: #333a3e;
   --td-web-primary-navy: #00233c;
-  --td-web-primary-navy-hover: rgba(0, 35, 60, 0.15);
 
   // Typography tokens
   --td-web-typography-body-font-family: Inter;
