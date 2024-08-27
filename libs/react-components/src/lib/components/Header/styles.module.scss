@@ -35,6 +35,13 @@ body {
 
 .headerUtility .containerWide {
   display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.headerUtility .containerWideWithAnnouncment {
+  display: flex;
   justify-content: space-between;
   box-sizing: border-box;
   align-items: center;
@@ -65,18 +72,6 @@ body {
 .headerUtility a:hover {
   background-size: 100% 1px;
   text-decoration: none;
-}
-
-.headerUtility .announcement i {
-  margin-right: 8px;
-}
-
-.headerUtility .announcement {
-  font-size: 16px !important;
-}
-
-.headerUtility .announcement a {
-  margin-left: 8px;
 }
 
 .headerNavWrapper {
