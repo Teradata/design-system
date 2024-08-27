@@ -29,7 +29,7 @@ interface ButtonProps {
   /**
    * The variant of the button, e.g., 'text'
    */
-  variant?: 'text';
+  variant: string;
   /**
    * The slot it should be added in when used inside a litjs component
    */
@@ -50,7 +50,7 @@ const Button: React.FC<ButtonProps> = ({
       type="button"
       className={`${styles.tdButton} ${
         variant === 'text' ? styles.tdButtonText : primary ? styles.tdButtonPrimary : styles.tdButtonSecondary
-      } ${size ? `tdButton${size}` : ''} ${
+      } ${size ? styles[`tdButton${size}`] : ''} ${
         trailingIcon ? styles.trailingIcon : ''
       }`}
       onClick={onClick}

@@ -49,6 +49,10 @@
   color: var(--td-web-primary-navy);
   border: none;
   &:hover {
-    background: var(--cv-theme-light-colors-on-surface); 
+    background: var(--cv-theme-secondary-4); 
   }
+}
+
+.tdButtonsmall {
+  padding: 9px 16px;
 }
