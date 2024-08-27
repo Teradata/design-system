@@ -93,6 +93,14 @@ const meta = {
         type: 'button',
       },
     ],
+    announcementContent: {
+      icon: <Icon className="fa-regular fa-bell" />,
+      text: 'Get started with Teradata today.',
+      link: {
+        url: 'https://www.teradata.com/getting-started/demos/clearscape-analytics',
+        label: 'Start free demo',
+      },
+    },
   },
 } satisfies Meta<typeof Header>;
 

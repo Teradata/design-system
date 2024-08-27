@@ -54,6 +54,14 @@ interface HeaderProps {
    * Secondary menu content for mobile view
    */
   secondaryMenu?: { menuElement: JSX.Element; title: string };
+  /**
+   * Announcement content to be displayed in the header
+   */
+  announcementContent?: {
+    icon: JSX.Element;
+    text: string;
+    link?: { url: string; label: string };
+  };
 }
 
 const Header: React.FC<HeaderProps> = ({
@@ -65,6 +73,7 @@ const Header: React.FC<HeaderProps> = ({
   onLanguageChange,
   selectedLanguage,
   secondaryMenu,
+  announcementContent,
 }) => {
   const [activeNavItem, setActiveNavItem] = useState<number | null>(
     navItems.findIndex((item) => item.active)
@@ -144,6 +153,22 @@ const Header: React.FC<HeaderProps> = ({
         {/* Header utility bar with the language switcher begins */}
         <section className={styles.headerUtility}>
           <div className={styles.containerWide}>
+            {announcementContent && (
+              <div className={styles.announcement}>
+                {announcementContent.icon && announcementContent.icon}
+                <span className={styles.text}>{announcementContent.text}</span>
+                {announcementContent.link && (
+                  <a
+                    href={announcementContent.link.url}
+                    className={styles.link}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {announcementContent.link.label}
+                  </a>
+                )}
+              </div>
+            )}
             <ul className={styles.headerUtilityNav}>
               <li>
                 <a href="https://www.teradata.com/" target="_self">
