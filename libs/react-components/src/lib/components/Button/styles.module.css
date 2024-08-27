@@ -43,3 +43,16 @@
     border-color: var(--td-web-primary-navy);
   }
 }
+
+.tdButtonText{
+  background: transparent;
+  color: var(--td-web-primary-navy);
+  border: none;
+  &:hover {
+    background: var(--cv-theme-secondary-4); 
+  }
+}
+
+.tdButtonsmall {
+  padding: 9px 16px;
+}
