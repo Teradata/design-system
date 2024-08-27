@@ -1,3 +1,13 @@
+## [1.11.1](https://github.com/Teradata/design-system/compare/v1.11.0...v1.11.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* **button:** add a style for text ([3606d10](https://github.com/Teradata/design-system/commit/3606d1005d35e2716bf35de87b1c780b429555f0))
+* **button:** add a style for text button with variable ([6818810](https://github.com/Teradata/design-system/commit/68188102c65347378446bd097cb16510ec89ce9a))
+* **button:** add a style for text button with variable-1 ([e48bfad](https://github.com/Teradata/design-system/commit/e48bfad2b39b4fb507cfa9a1e38761134eac21fe))
+* **button:** add small size for button ([05d3acb](https://github.com/Teradata/design-system/commit/05d3acb4895ceb492353890f691fe7f49547a268))
+
 # [1.11.0](https://github.com/Teradata/design-system/compare/v1.10.1...v1.11.0) (2024-08-22)
 
 
