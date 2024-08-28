@@ -93,6 +93,24 @@ const meta = {
         type: 'button',
       },
     ],
+    announcementContent: (
+      <div>
+        <Icon className="fa-regular fa-bell" style={{ marginRight: '8px' }} />
+        <span>Important Announcement: </span>
+        <a
+          href="https://www.teradata.com"
+          style={{
+            marginLeft: '4px',
+            color: '#007bff',
+            textDecoration: 'underline',
+          }}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Start free demo
+        </a>
+      </div>
+    ),
   },
 } satisfies Meta<typeof Header>;
 
