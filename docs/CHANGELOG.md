@@ -1,3 +1,11 @@
+## [1.12.1](https://github.com/Teradata/design-system/compare/v1.12.0...v1.12.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* **alert:** add missing inline property ([6295432](https://github.com/Teradata/design-system/commit/62954323ac74e49f74274a699a1b6d31bbe25839))
+* **alert:** run prittier ([a95c01f](https://github.com/Teradata/design-system/commit/a95c01fc5ee6130592a907337c655de5955c6ffa))
+
 # [1.12.0](https://github.com/Teradata/design-system/compare/v1.11.1...v1.12.0) (2024-08-28)
 
 
