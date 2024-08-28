@@ -20,6 +20,10 @@ interface AlertProps {
    * State of the button
    */
   state: string;
+  /**
+   * 
+   */
+  inline: boolean;
 }
 const AlertComponent = createComponent({
   tagName: 'cv-alert',
