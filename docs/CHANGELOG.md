@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/Teradata/design-system/compare/v1.11.1...v1.12.0) (2024-08-28)
+
+
+### Features
+
+* **language-switcher:** removes duplicate css rules ([3777b9a](https://github.com/Teradata/design-system/commit/3777b9a1e963229119a54b2955da14fcaafe9225))
+* **language-switcher:** update component to accept a React component ([f608106](https://github.com/Teradata/design-system/commit/f60810694ce72dca67b9c3d33865d1cae8a66ff5))
+
 ## [1.11.1](https://github.com/Teradata/design-system/compare/v1.11.0...v1.11.1) (2024-08-27)
 
 
