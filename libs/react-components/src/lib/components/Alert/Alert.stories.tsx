@@ -16,6 +16,7 @@ const meta = {
     titleText: 'Alert title',
     descriptionText: 'Alert description',
     state: 'active',
+    inline: false,
   },
 } satisfies Meta<typeof Alert>;
 
