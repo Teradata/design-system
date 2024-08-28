@@ -17,7 +17,7 @@ const meta = {
     primary: true,
     icon: 'fa fa-arrow-right',
     trailingIcon: false,
-    variant:'',
+    variant: '',
     slot: '',
   },
 } satisfies Meta<typeof Button>;

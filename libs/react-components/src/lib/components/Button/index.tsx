@@ -49,7 +49,11 @@ const Button: React.FC<ButtonProps> = ({
     <button
       type="button"
       className={`${styles.tdButton} ${
-        variant === 'text' ? styles.tdButtonText : primary ? styles.tdButtonPrimary : styles.tdButtonSecondary
+        variant === 'text'
+          ? styles.tdButtonText
+          : primary
+          ? styles.tdButtonPrimary
+          : styles.tdButtonSecondary
       } ${size ? styles[`tdButton${size}`] : ''} ${
         trailingIcon ? styles.trailingIcon : ''
       }`}
