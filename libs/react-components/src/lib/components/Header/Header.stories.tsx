@@ -83,13 +83,15 @@ const meta = {
       {
         actionElement: (
           <div>
-            <Icon className="fa fa-search" />
+            <Icon className="fa fa-search" style={{ fontSize: 16 }} />
           </div>
         ),
         type: 'search',
       },
       {
-        actionElement: <Button icon="fa fa-home" label="Start free demo" />,
+        actionElement: (
+          <Button icon="fa fa-home" label="Start free demo" variant={'text'} />
+        ),
         type: 'button',
       },
     ],
