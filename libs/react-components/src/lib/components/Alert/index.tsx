@@ -21,7 +21,7 @@ interface AlertProps {
    */
   state: string;
   /**
-   * 
+   * Whether the alert should be inline with it's container
    */
   inline: boolean;
 }
