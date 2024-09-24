@@ -1,3 +1,11 @@
+## [1.12.2](https://github.com/Teradata/design-system/compare/v1.12.1...v1.12.2) (2024-09-24)
+
+
+### Bug Fixes
+
+* **styles:** fix linting errors ([22d2b58](https://github.com/Teradata/design-system/commit/22d2b5824c55d9f63bdea47f286fda025ed2e018))
+* **styles:** fix logo text alignment issues ([fa7cf3b](https://github.com/Teradata/design-system/commit/fa7cf3bae3a7f292fea0747f8ba5d2b01038b447))
+
 ## [1.12.1](https://github.com/Teradata/design-system/compare/v1.12.0...v1.12.1) (2024-08-28)
 
 
