@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/Teradata/design-system/compare/v1.12.2...v1.12.3) (2024-09-26)
+
+
+### Bug Fixes
+
+* **styles:** change rem values to px values ([3509814](https://github.com/Teradata/design-system/commit/35098140f615d6085d89f6bab04ff86be2a881d4))
+
 ## [1.12.2](https://github.com/Teradata/design-system/compare/v1.12.1...v1.12.2) (2024-09-24)
 
 
