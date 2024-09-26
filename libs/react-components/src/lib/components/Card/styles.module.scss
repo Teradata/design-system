@@ -29,7 +29,7 @@
   color: var(--td-web-primary-navy, #00233c);
   /* Desktop/H3 */
   font-family: Inter;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 34px; /* 141.667% */
@@ -84,7 +84,7 @@
 
 .contentWrapper {
   flex: 1;
-  padding: 1.5rem;
+  padding: 24px;
 }
 
 @media screen and (max-width: 750px) {

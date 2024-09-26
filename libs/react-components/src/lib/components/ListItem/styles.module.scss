@@ -47,11 +47,11 @@
 
   &::before {
     background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTEwIDE3IDUtNS01LTV2MTBaIiBmaWxsPSIjNUM1QjVGIi8+PC9zdmc+)
-      50%/1.5rem 1.5rem;
-    height: 1.25rem;
+      50%/24px 24px;
+    height: 20px;
     transition: transform 200ms linear;
-    width: 1.25rem;
-    margin-left: calc(0.75rem / 2);
+    width: 20px;
+    margin-left: 6px;
     content: '';
     filter: none;
     transform: rotate(0);

@@ -1,6 +1,6 @@
 .navItemLink {
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+  font-size: 15px;
+  line-height: 20px;
   font-weight: 600;
   color: var(--td-web-primary-navy);
   position: relative;
@@ -8,7 +8,7 @@
   white-space: nowrap;
   text-decoration: none;
   transition: 0.25s;
-  padding: 0 0.75rem;
+  padding: 0 12px;
   cursor: pointer;
 
   &:hover {
@@ -24,7 +24,7 @@
   height: 2px;
   bottom: -8px;
   background: transparent;
-  width: 3rem;
+  width: 48px;
   left: 50%;
   transform: translateX(-50%);
   transition: all 0.1s ease;
@@ -37,7 +37,7 @@
 
 .navItemMenu {
   position: absolute;
-  top: 5rem;
+  top: 80px;
   background: var(--cv-theme-surface-container-lowest);
   transform: translateX(-32%);
   transition: all 0.25s ease-in-out 0s;
@@ -46,7 +46,7 @@
   width: 320px;
 
   ul {
-    padding: 2rem 1.5rem 1.25rem;
+    padding: 32px 24px 20px;
     li {
       list-style: none;
     }
@@ -74,5 +74,5 @@
 }
 
 .externalLinkImg {
-  width: 1rem;
+  width: 16px;
 }

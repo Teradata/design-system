@@ -1,6 +1,6 @@
 .breadcrumb {
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 12px;
+  line-height: 16px;
 
   ul {
     list-style: none;
@@ -27,7 +27,7 @@
         &:after {
           content: 'chevron_right';
           font-family: 'Material Symbols Outlined';
-          margin: 0 0.25rem;
+          margin: 0 4px;
           color: var(--td-web-primary-navy);
         }
         &:hover {

@@ -1,6 +1,6 @@
 @mixin container-wide() {
   .containerWide {
-    padding: 0 1.5rem;
+    padding: 0 24px;
     margin: auto;
     max-width: 1440px;
     box-sizing: border-box;
@@ -8,13 +8,13 @@
 
   @media screen and (min-width: 768px) {
     .containerWide {
-      padding: 0 2.5rem;
+      padding: 0 40px;
     }
   }
 
   @media screen and (min-width: 1025px) {
     .containerWide {
-      padding: 0 6.625rem;
+      padding: 0 106px;
       width: 100%;
     }
   }
