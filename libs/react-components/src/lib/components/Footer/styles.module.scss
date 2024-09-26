@@ -18,7 +18,7 @@
 }
 
 .footerLink {
-  padding: 0.5rem;
+  padding: 8px;
   flex: 1 0 0;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .socialLinksWrapper .footerLinkTitle {
-  padding-bottom: 1rem;
+  padding-bottom: 16px;
 }
 
 .footerLinkItem {
@@ -44,7 +44,7 @@
   color: var(--td-web-primary-navy);
   font-weight: 400;
   font-size: 15px;
-  line-height: 1.5rem;
+  line-height: 24px;
   background-image: linear-gradient(
     var(--td-web-primary-navy),
     var(--td-web-primary-navy)
@@ -65,18 +65,18 @@
 .socialLinksList {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 0.75rem;
+  gap: 16px 12px;
 }
 
 .legalLinksWrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 0 1.5rem;
+  gap: 0 24px;
 }
 
 .copyrightWrapper {
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 14px;
   margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .copyrightText {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .externalIconImg {
@@ -98,7 +98,7 @@
 }
 
 .legalLinksWrapper .footerLinkItem {
-  margin: 0 0 0.5rem;
+  margin: 0 0 8px;
 }
 
 .footer,
@@ -119,7 +119,7 @@
 .linksOfInterest {
   font-size: 14px;
   line-height: 28px;
-  padding: 0.5rem;
+  padding: 8px;
   text-align: center;
 }
 
@@ -159,14 +159,14 @@
 
 @media screen and (min-width: 992px) {
   .copyrightLinks {
-    margin: 1rem 0 2.625rem;
+    margin: 16px 0 42px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .linkOfInterest {
     display: inline-block;
-    margin-right: 2em;
+    margin-right: 32px;
   }
 }
 
@@ -192,8 +192,8 @@
 
     .footerLinkTitle {
       pointer-events: all;
-      font-size: 1rem;
-      padding: 1rem 0;
+      font-size: 16px;
+      padding: 16px 0;
       display: flex;
       align-items: center;
       cursor: pointer;

@@ -6,14 +6,14 @@
 .languageSelectorToggle {
   align-items: center;
   display: flex;
-  padding: 0 1.2rem 0 0;
+  padding: 0 20px 0 0;
   position: relative;
   transition: 0.25s;
   width: auto;
   z-index: 1;
   border: none;
   background: transparent;
-  font-size: 0.75rem;
+  font-size: 12px;
   cursor: pointer;
 
   &:after {
@@ -42,9 +42,9 @@
   overflow: auto;
   position: absolute;
   right: 0;
-  font-size: 0.9375rem;
+  font-size: 15px;
   z-index: 1;
-  top: 2.25rem;
+  top: 36px;
   visibility: hidden;
 }
 
@@ -52,7 +52,7 @@
   background: transparent;
   cursor: pointer;
   padding: 8px 0;
-  font-size: 0.9375rem;
+  font-size: 15px;
   letter-spacing: 0;
   text-align: right;
 
@@ -79,7 +79,7 @@
 
     &.top {
       top: auto;
-      bottom: 2rem;
+      bottom: 32px;
     }
   }
 }

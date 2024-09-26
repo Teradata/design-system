@@ -6,7 +6,7 @@
   display: inline-block;
   font-family: var(--mdc-typography-subtitle1-font-family);
   font-weight: var(--mdc-typography-subtitle1-font-weight);
-  padding: 1rem 0.75rem;
+  padding: 16px 12px;
   transition: all 0.25s ease-in-out 0s;
   white-space: nowrap;
 
@@ -28,6 +28,6 @@
 
 @media screen and (min-width: 1024px) {
   .chip {
-    padding: 1rem 1.5rem;
+    padding: 16px 24px;
   }
 }

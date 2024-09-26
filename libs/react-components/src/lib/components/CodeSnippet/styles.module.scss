@@ -5,12 +5,12 @@
 .copyButton {
   opacity: 0;
   position: absolute;
-  top: 2.375rem;
+  top: 38px;
   transition: opacity 0.25s ease-out;
-  right: 0.285rem;
+  right: 5px;
 
-  --mdc-icon-button-size: 2.5rem;
-  --mdc-icon-size: 1.25rem;
+  --mdc-icon-button-size: 40px;
+  --mdc-icon-size: 20px;
 }
 
 .codeSnippet {
@@ -25,5 +25,5 @@
 }
 
 .headerHidden .copyButton {
-  top: 0.325rem;
+  top: 5px;
 }
