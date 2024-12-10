@@ -22,14 +22,18 @@ const meta = {
         'headline3',
         'caption',
         'eyebrow',
-        'eyebrow2',
       ],
       control: { type: 'select' },
     },
+    alignment: {
+      options: ['center', 'left', 'right'],   
+      control: { type: 'select' },    
+      if: { arg: 'scale', eq: 'eyebrow' },
+    },
   },
-  args: { scale: 'headline1' },
+  args: { scale: 'headline1', alignment: 'center' },
   render: (args) => {
-    return <Typography scale={args.scale}>Change the scale value.</Typography>;
+    return <Typography scale={args.scale} alignment={args.alignment}>Change the scale value.</Typography>;
   },
 } satisfies Meta<typeof Typography>;
 

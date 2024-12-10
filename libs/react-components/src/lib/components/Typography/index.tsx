@@ -13,17 +13,18 @@ interface TypographyProps {
     | 'headline2'
     | 'headline3'
     | 'caption'
-    | 'eyebrow'
-    | 'eyebrow2';
+    | 'eyebrow';
+  alignment: 'center' | 'left' | 'right';  
   children?: ReactNode;
 }
 
 const Typography: React.FC<TypographyProps> = ({
   scale = 'body1',
+  alignment = 'center',
   children,
 }) => {
   return (
-    <slot className={`${styles[scale]} ${styles.typography}`}>{children}</slot>
+    <slot className={`${styles[scale]} ${alignment && scale === 'eyebrow' ? styles[alignment] : 'center'} ${styles.typography}`}>{children}</slot>
   );
 };
 
