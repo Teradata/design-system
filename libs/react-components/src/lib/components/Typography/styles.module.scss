@@ -70,7 +70,7 @@
 }
 
 .caption,
-.eyebrow {
+.eyebrow, .eyebrow2 {
   @extend %headline-styles;
   /* Desktop/Caption/Bold */
   font-family: var(--td-web-typography-caption-font-family);
@@ -81,21 +81,11 @@
 
 
 .eyebrow {
+  align-items: var(--td-web-typography-eyebrow-alignment, 'center');
   display: flex;
   flex-direction: column;
   gap: 8px;
 
-  &.center {
-    align-items: center;  
-  }
-  
-  &.left {
-    align-items: flex-start;  
-  }
-
-  &.right {
-    align-items: flex-end;  
-  }
   &::after {
     background-color: var(--cv-theme-tertiary);
     border-radius: 2px;
@@ -105,6 +95,10 @@
   }
 }
 
+.eyebrow2 {
+  @extend .eyebrow;
+  --td-web-typography-eyebrow-alignment: left;
+}
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
