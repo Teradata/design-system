@@ -22,6 +22,7 @@ const meta = {
         'headline3',
         'caption',
         'eyebrow',
+        'eyebrow2',
       ],
       control: { type: 'select' },
     },

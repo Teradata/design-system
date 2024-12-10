@@ -13,7 +13,8 @@ interface TypographyProps {
     | 'headline2'
     | 'headline3'
     | 'caption'
-    | 'eyebrow';
+    | 'eyebrow'
+    | 'eyebrow2';
   children?: ReactNode;
 }
 
