@@ -1,3 +1,14 @@
+# [1.13.0](https://github.com/Teradata/design-system/compare/v1.12.3...v1.13.0) (2024-12-11)
+
+
+### Features
+
+* **eyebrow:** adding eyebrow variable ([695b9c2](https://github.com/Teradata/design-system/commit/695b9c2a504a5e68eb93ae81b6ee75162d6087da))
+* **eyebrow:** adding eyebrow variation ([f1f4de9](https://github.com/Teradata/design-system/commit/f1f4de940a09de37febfe5e68ba5dbc465f73d2f))
+* **eyebrow:** adding eyebrow variation as a paramter option ([ec421b7](https://github.com/Teradata/design-system/commit/ec421b7c67f9645709ae0533b266ee242120f112))
+* **eyebrow:** adding eyebrow variation variable ([f41e98b](https://github.com/Teradata/design-system/commit/f41e98b8ee29bbe9d3128cf45af02193e6a2238b))
+* **eyebrow:** remove eyebrow2 class ([456ead9](https://github.com/Teradata/design-system/commit/456ead9974c93764c29dc79682a6cf15de5f5fe2))
+
 ## [1.12.3](https://github.com/Teradata/design-system/compare/v1.12.2...v1.12.3) (2024-09-26)
 
 
