@@ -95,10 +95,6 @@
   }
 }
 
-.eyebrow2 {
-  @extend .eyebrow;
-  --td-web-typography-eyebrow-alignment: left;
-}
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {

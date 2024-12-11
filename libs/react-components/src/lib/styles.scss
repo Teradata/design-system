@@ -88,6 +88,8 @@ $dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
   --td-web-typography-headline3-font-weight: 600;
   --td-web-typography-headline3-letter-spacing: -0.24px;
   --td-web-typography-headline3-line-height: 34px;
+
+  --td-web-typography-eyebrow-alignment: center;
 }
 
 // Dark theme class
