@@ -70,7 +70,7 @@
 }
 
 .caption,
-.eyebrow, .eyebrow2 {
+.eyebrow {
   @extend %headline-styles;
   /* Desktop/Caption/Bold */
   font-family: var(--td-web-typography-caption-font-family);
