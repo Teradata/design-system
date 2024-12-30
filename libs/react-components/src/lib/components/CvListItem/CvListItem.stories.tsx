@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import CvListItem from './index';
+
 const meta = {
   title: 'Components/CvListItem',
   component: CvListItem,
@@ -9,6 +10,7 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
+
   args: {
     /**
      * Value associated with this list item
@@ -60,8 +62,10 @@ const meta = {
     children: <span>List Item</span>,
   },
 } satisfies Meta<typeof CvListItem>;
+
 export default meta;
 type Story = StoryObj<typeof meta>;
+
 export const Basic: Story = {
   render: (args) => {
     return <CvListItem {...args}>{args.children}</CvListItem>;

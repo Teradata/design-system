@@ -21,9 +21,7 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Basic: Story = {};
-
-export const ActionElements: Story = {
+export const Basic: Story = {
   render: (args) => {
     return (
       <Select {...args}>

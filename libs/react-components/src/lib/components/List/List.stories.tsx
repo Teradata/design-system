@@ -11,7 +11,7 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
-  
+
   args: {
     activatible: true,
     rootTabbable: false,
@@ -20,22 +20,20 @@ const meta = {
     noninteractive: false,
     itemRoles: '',
     innerAriaLabel: '',
-    innerRole:'',
+    innerRole: '',
   },
 } satisfies Meta<typeof List>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Basic: Story = {};
-
-export const ActionElements: Story = {
+export const Basic: Story = {
   render: (args) => {
     return (
       <List {...args}>
-        <CvListItem>sub item 1</CvListItem>
-        <CvListItem>sub item 2</CvListItem>
-        <CvListItem>sub item 3</CvListItem>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
       </List>
     );
   },

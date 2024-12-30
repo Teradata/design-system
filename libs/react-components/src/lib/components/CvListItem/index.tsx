@@ -2,6 +2,7 @@ import { CovalentListItem } from '@covalent/components/list/list-item';
 import { createComponent } from '@lit/react';
 import React from 'react';
 import '@covalent/components/icon';
+
 interface ListItemProps {
   /**
    * Value associated with this list item
@@ -54,8 +55,10 @@ const ListItemComponent = createComponent({
   elementClass: CovalentListItem as never,
   react: React,
 });
+
 const CvListItem: React.FC<ListItemProps> = (props) => {
   return <ListItemComponent {...props}></ListItemComponent>;
 };
+
 CvListItem.displayName = 'CvListItem';
 export default CvListItem;
