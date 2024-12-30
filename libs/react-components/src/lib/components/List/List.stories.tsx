@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import List from './index';
-import ListItem from '../List-Item';
+import CvListItem from '../CvListItem';
 
 const meta = {
   title: 'Components/List',
@@ -11,7 +11,7 @@ const meta = {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
   },
-  
+
   args: {
     activatible: true,
     rootTabbable: false,
@@ -20,22 +20,20 @@ const meta = {
     noninteractive: false,
     itemRoles: '',
     innerAriaLabel: '',
-    innerRole:'',
+    innerRole: '',
   },
 } satisfies Meta<typeof List>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Basic: Story = {};
-
-export const ActionElements: Story = {
+export const Basic: Story = {
   render: (args) => {
     return (
       <List {...args}>
-        <ListItem activatible={false}>sub item</ListItem>
-        <ListItem activatible={false}>sub item</ListItem>
-        <ListItem activatible={false}>sub item</ListItem>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
       </List>
     );
   },

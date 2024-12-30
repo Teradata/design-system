@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Select from './index';
-import List from '../List';
-import ListItem from '../List-Item';
+import CvListItem from '../CvListItem';
 
 const meta = {
   title: 'Components/Select',
@@ -22,26 +21,13 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Basic: Story = {};
-
-export const ActionElements: Story = {
+export const Basic: Story = {
   render: (args) => {
     return (
       <Select {...args}>
-        <List 
-          activatible={true} 
-          rootTabbable={false} 
-          multi={false} 
-          wrapFocus={false}
-          noninteractive={false} 
-          itemRoles="listitem" 
-          innerAriaLabel="Select List" 
-          innerRole="list"
-        >
-          <ListItem activatible={false}>sub item</ListItem>
-          <ListItem activatible={false}>sub item</ListItem>
-          <ListItem activatible={false}>sub item</ListItem>
-        </List>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
+        <CvListItem>sub item</CvListItem>
       </Select>
     );
   },
