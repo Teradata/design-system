@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import List from './index';
-import ListItem from '../List-Item';
+import CvListItem from '../CvListItem';
 
 const meta = {
   title: 'Components/List',
@@ -33,9 +33,9 @@ export const ActionElements: Story = {
   render: (args) => {
     return (
       <List {...args}>
-        <ListItem activatible={false}>sub item</ListItem>
-        <ListItem activatible={false}>sub item</ListItem>
-        <ListItem activatible={false}>sub item</ListItem>
+        <CvListItem>sub item 1</CvListItem>
+        <CvListItem>sub item 2</CvListItem>
+        <CvListItem>sub item 3</CvListItem>
       </List>
     );
   },
