@@ -79,7 +79,6 @@
   line-height: var(--td-web-typography-caption-line-height);
 }
 
-
 .eyebrow {
   align-items: var(--td-web-typography-eyebrow-alignment, 'center');
   display: flex;
@@ -94,7 +93,6 @@
     width: 20px;
   }
 }
-
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
