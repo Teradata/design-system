@@ -1,3 +1,13 @@
+# [1.14.0](https://github.com/Teradata/design-system/compare/v1.13.0...v1.14.0) (2024-12-31)
+
+
+### Features
+
+* **select:** select component ([07b2f78](https://github.com/Teradata/design-system/commit/07b2f7822e1945fccaab6d7759eff5cb9bc08baa))
+* **select:** select component - 1 ([41e570e](https://github.com/Teradata/design-system/commit/41e570e665ee52e032b5501cfa2ebd5aab7323b0))
+* **select:** select component - 2 ([53f8a1d](https://github.com/Teradata/design-system/commit/53f8a1dc74396aa63e07de042939a26cfa8b1839))
+* **select:** select component - prettier check ([bc03f9a](https://github.com/Teradata/design-system/commit/bc03f9aa3b2141531436f933e5ddde3ef53586ad))
+
 # [1.13.0](https://github.com/Teradata/design-system/compare/v1.12.3...v1.13.0) (2024-12-11)
 
 
