@@ -73,10 +73,6 @@ export const LeftAlignedEyebrow: Story = {
       'story--components-typography--left-aligned-eyebrow-inner'
     );
     element?.style.setProperty('--td-web-typography-eyebrow-alignment', 'left');
-    return (
-      <Typography scale="eyebrow">
-        Left aligned eyebrow
-      </Typography>
-    );
+    return <Typography scale="eyebrow">Left aligned eyebrow</Typography>;
   },
 };
