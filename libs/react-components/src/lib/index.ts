@@ -28,6 +28,9 @@ import { Tab, TabBar } from './components/Tabs';
 import Typography from './components/Typography';
 import Alert from './components/Alert';
 import Dialog from './components/Dialog';
+import CvListItem from './components/CvListItem';
+import List from './components/List';
+import Select from './components/Select';
 
 export {
   Alert,
@@ -38,6 +41,7 @@ export {
   Chip,
   ChipSet,
   CodeSnippet,
+  CvListItem,
   Dialog,
   DropdownMenu,
   DropdownMenuItem,
@@ -49,7 +53,9 @@ export {
   IconButtonToggle,
   IconLink,
   LanguageDropdown,
+  List,
   ListItem,
+  Select,
   NavItem,
   Tab,
   TabBar,
