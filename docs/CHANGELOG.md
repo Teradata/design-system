@@ -1,3 +1,11 @@
+## [1.14.1](https://github.com/Teradata/design-system/compare/v1.14.0...v1.14.1) (2025-01-09)
+
+
+### Bug Fixes
+
+* **select-component:** fix prettier ([23ca450](https://github.com/Teradata/design-system/commit/23ca4505b59899cb97b0c5c29a30e8021e49b72a))
+* **select-component:** missing export in index file ([441c31b](https://github.com/Teradata/design-system/commit/441c31b378e15993f576cd57ac3dba9f7397c1a0))
+
 # [1.14.0](https://github.com/Teradata/design-system/compare/v1.13.0...v1.14.0) (2024-12-31)
 
 
