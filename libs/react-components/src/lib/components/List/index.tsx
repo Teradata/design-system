@@ -1,4 +1,4 @@
-import { CovalentList } from '@covalent/components/list/list';
+import { CovalentList } from '@covalent/components/list';
 import { createComponent } from '@lit/react';
 import React from 'react';
 import '@covalent/components/icon';

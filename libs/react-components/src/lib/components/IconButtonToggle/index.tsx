@@ -27,6 +27,10 @@ interface IconButtonToggleProps {
    * Click handler for the button
    */
   onClick?: (event: React.MouseEvent<HTMLElement>) => void;
+  /**
+   * Whether the icon button is toggled on
+   */
+  toggledOn?: boolean;
 }
 
 const IconButtonToggleComponent = createComponent({
@@ -42,6 +46,7 @@ export const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
   ariaHasPopup,
   disabled,
   onClick,
+
 }) => {
   const customProps = {
     offIcon,
