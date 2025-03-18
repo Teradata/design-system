@@ -1,4 +1,4 @@
-import { CovalentList } from '@covalent/components/list';
+import { CovalentListItem } from '@covalent/components/list-item';
 import { createComponent } from '@lit/react';
 import React from 'react';
 import '@covalent/components/icon';
@@ -52,7 +52,7 @@ interface ListItemProps {
 }
 const ListItemComponent = createComponent({
   tagName: 'cv-list-item',
-  elementClass: CovalentList as never,
+  elementClass: CovalentListItem as never,
   react: React,
 });
 
