@@ -1,3 +1,12 @@
+## [1.14.2](https://github.com/Teradata/design-system/compare/v1.14.1...v1.14.2) (2025-03-18)
+
+
+### Bug Fixes
+
+* **banner:** fix banner ([d3192dd](https://github.com/Teradata/design-system/commit/d3192dd9bb4b5480f903a1eecc6b326654d03aee))
+* **banner:** fix build ([0a1423e](https://github.com/Teradata/design-system/commit/0a1423e7b6bdac721f09ef3e10b9b929a97104db))
+* **banner:** fix correct imports of CovalentListItem due to change ([f352e35](https://github.com/Teradata/design-system/commit/f352e35b98066f7e66d4112f6aba8d27db43f192))
+
 ## [1.14.1](https://github.com/Teradata/design-system/compare/v1.14.0...v1.14.1) (2025-01-09)
 
 
