@@ -37,7 +37,7 @@ const config: StorybookConfig = {
             keep_classnames: true,
             keep_fnames: true,
           },
-        })
+        }),
       );
     }
 

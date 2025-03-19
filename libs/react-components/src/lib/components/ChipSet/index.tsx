@@ -58,7 +58,7 @@ const ChipSet: React.FC<ChipSetProps> = ({
 
   // Filter out non-Chip elements and render only Chip components
   const chips = React.Children.toArray(children).filter(
-    (child) => (child as ReactElement).type === Chip
+    (child) => (child as ReactElement).type === Chip,
   );
 
   useEffect(() => {

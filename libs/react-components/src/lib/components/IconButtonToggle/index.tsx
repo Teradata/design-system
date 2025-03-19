@@ -46,7 +46,6 @@ export const IconButtonToggle: React.FC<IconButtonToggleProps> = ({
   ariaHasPopup,
   disabled,
   onClick,
-
 }) => {
   const customProps = {
     offIcon,

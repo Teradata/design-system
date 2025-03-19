@@ -30,19 +30,19 @@ export const Feedback: React.FC<FeedbackProps> = ({
   return (
     <div className={styles.feedback}>
       <span className={styles.feedbackLabel}>
-      <Typography scale="body1">{feedbackLabel}</Typography>
+        <Typography scale="body1">{feedbackLabel}</Typography>
       </span>
       <IconButtonToggle
-      offIcon="thumb_up"
-      onIcon="thumb_up"
-      onClick={() => sendFeedback('positive')}
-      toggledOn={feedback === 'positive'}
+        offIcon="thumb_up"
+        onIcon="thumb_up"
+        onClick={() => sendFeedback('positive')}
+        toggledOn={feedback === 'positive'}
       />
       <IconButtonToggle
-      offIcon="thumb_down"
-      onIcon="thumb_down"
-      onClick={() => sendFeedback('negative')}
-      toggledOn={feedback === 'negative'}
+        offIcon="thumb_down"
+        onIcon="thumb_down"
+        onClick={() => sendFeedback('negative')}
+        toggledOn={feedback === 'negative'}
       />
     </div>
   );

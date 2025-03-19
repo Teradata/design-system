@@ -47,7 +47,7 @@ const TabBar: React.FC<TabBarProps> = ({
 
   const onTabChange = (selectedTabLabel: string[]) => {
     const selectedIndex = children.findIndex(
-      (child) => (child as ReactElement).props.label === selectedTabLabel[0]
+      (child) => (child as ReactElement).props.label === selectedTabLabel[0],
     );
     setSelectedIndex(selectedIndex);
   };
