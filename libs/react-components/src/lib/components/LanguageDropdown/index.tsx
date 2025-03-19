@@ -42,11 +42,11 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = ({
   const [activeLangButton, setActiveLangButton] = useState<boolean>(false);
 
   const defaultLang = languages?.find(
-    (lang) => lang.value === selectedLanguage
+    (lang) => lang.value === selectedLanguage,
   );
 
   const [activeLang, setActiveLang] = useState<Language | null>(
-    defaultLang || null
+    defaultLang || null,
   );
 
   const handleLangButtonClick = () => {

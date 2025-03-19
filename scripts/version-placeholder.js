@@ -10,7 +10,7 @@ console.log('Replacing placeholders: ', placeholders);
 
 /** RegExps that match version placeholders inside of a file. */
 const placeholderRegexes = placeholders.map(
-  (placeholder) => new RegExp(placeholder[0], 'g')
+  (placeholder) => new RegExp(placeholder[0], 'g'),
 );
 /**
  * Walks through every file in a directory and replaces the version placeholders
@@ -27,7 +27,7 @@ function replaceVersionPlaceholders(packageDir = 'dist') {
     const fileContent = placeholderRegexes.reduce(
       (accumulator, currentValue, currentIndex) =>
         accumulator.replace(currentValue, placeholders[currentIndex][1]),
-      readFileSync(filePath, 'utf-8')
+      readFileSync(filePath, 'utf-8'),
     );
 
     console.log(`Replacing placeholder in ${filePath}`);

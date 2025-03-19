@@ -72,7 +72,7 @@ const Header: React.FC<HeaderProps> = ({
   announcementContent,
 }) => {
   const [activeNavItem, setActiveNavItem] = useState<number | null>(
-    navItems.findIndex((item) => item.active)
+    navItems.findIndex((item) => item.active),
   );
   const [activeMobileMenu, setActiveMobileMenu] = useState<boolean>(false);
 
@@ -315,7 +315,7 @@ const Header: React.FC<HeaderProps> = ({
                         (action, index) =>
                           action.type === 'button' && (
                             <li key={index}>{action.actionElement}</li>
-                          )
+                          ),
                       )}
                   </ul>
                   <div className={styles.headerNavMobileFooter}>

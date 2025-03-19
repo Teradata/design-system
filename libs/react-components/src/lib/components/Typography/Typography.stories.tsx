@@ -36,11 +36,11 @@ const meta = {
   args: { scale: 'headline1' },
   render: (args) => {
     const element = document.getElementById(
-      'story--components-typography--basic--primary-inner'
+      'story--components-typography--basic--primary-inner',
     );
     element?.style.setProperty(
       '--td-web-typography-eyebrow-alignment',
-      'center'
+      'center',
     );
     return <Typography scale={args.scale}>Change the scale value.</Typography>;
   },
@@ -70,7 +70,7 @@ export const LeftAlignedEyebrow: Story = {
   },
   render: (_args) => {
     const element = document.getElementById(
-      'story--components-typography--left-aligned-eyebrow-inner'
+      'story--components-typography--left-aligned-eyebrow-inner',
     );
     element?.style.setProperty('--td-web-typography-eyebrow-alignment', 'left');
     return <Typography scale="eyebrow">Left aligned eyebrow</Typography>;
