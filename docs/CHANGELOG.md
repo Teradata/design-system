@@ -1,3 +1,12 @@
+## [1.14.3](https://github.com/Teradata/design-system/compare/v1.14.2...v1.14.3) (2025-03-19)
+
+
+### Bug Fixes
+
+* **alert-icon:** fix prettier ([a490093](https://github.com/Teradata/design-system/commit/a49009355e4c8b95af80f1b30c628bb09bb547e4))
+* **alert-icon:** update web components library ([8a7de88](https://github.com/Teradata/design-system/commit/8a7de8870ec8a58f2f5f5b778804eff8e8077fcd))
+* **alert-icon:** update web components library ([359c4c9](https://github.com/Teradata/design-system/commit/359c4c92d2d31b3c24823aa0a08e29fd3a9794f4))
+
 ## [1.14.2](https://github.com/Teradata/design-system/compare/v1.14.1...v1.14.2) (2025-03-18)
 
 
