@@ -163,28 +163,34 @@ const meta = {
       title: 'Social media',
       items: [
         {
-          icon: 'fa-brands fa-linkedin-in',
+          icon: 'linkedin',
           href: 'https://www.linkedin.com/company/teradata',
+          external: true,   
         },
         {
-          icon: 'fa-brands fa-x-twitter',
+          icon: 'twitter',
           href: 'https://twitter.com/teradata',
+          external: true,
         },
         {
-          icon: 'fa-brands fa-facebook-f',
+          icon: 'facebook',
           href: 'https://www.facebook.com/Teradata',
+          external: true,
         },
         {
-          icon: 'fa-brands fa-instagram',
+          icon: 'instagram',
           href: 'https://www.instagram.com/teradata/',
+          external: true,
         },
         {
-          icon: 'fa-brands fa-youtube',
+          icon: 'youtube',
           href: 'https://www.youtube.com/user/teradata',
+          external: true,
         },
         {
-          icon: 'fa fa-rss',
+          icon: 'rss',
           href: 'https://www.teradata.com/rss',
+          external: true,
         },
       ],
     },

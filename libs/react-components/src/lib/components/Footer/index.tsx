@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import externalLinkIcon from '../../assets/external-link.svg';
 import IconLink from '../IconLink';
+import { SvgIcon } from '../SvgIcon';
 
 export type FooterNavLink = {
   label: string;
@@ -31,6 +32,7 @@ export type SocialLinks = {
   items: {
     icon: string;
     href: string;
+    external?: boolean;
     label?: string;
   }[];
 };
@@ -165,12 +167,18 @@ const Footer: React.FC<FooterProps> = ({
               <ul className={styles.socialLinksList}>
                 {socialLinks.items?.map((item, index) => (
                   <li key={index}>
-                    <IconLink
+                    <a 
+                      href={item.href} 
+                      target={item.external ? '_blank' : '_self'} 
+                      aria-label={`Social Link${item.label ? `- ${item.label}` : ''}`}
+                      rel="noreferrer"
+                      className={styles.socialLink}
+                    >
+                    <SvgIcon
                       iconName={item.icon}
-                      href={item.href}
                       size={14}
-                      label={item.label}
                     />
+                    </a>
                   </li>
                 ))}
               </ul>
