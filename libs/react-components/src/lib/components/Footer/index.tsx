@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import externalLinkIcon from '../../assets/external-link.svg';
-import IconLink from '../IconLink';
 import { SvgIcon } from '../SvgIcon';
 
 export type FooterNavLink = {
