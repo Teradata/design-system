@@ -68,6 +68,25 @@
   gap: 16px 12px;
 }
 
+.socialLink {
+  align-items: center;
+  background: var(--td-web-primary-navy);
+  border-radius: 100%;
+  color: var(--cv-theme-surface-container-lowest);
+  display: inline-flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+  cursor: pointer;
+  transition: all .25s ease-in-out 0s;
+  text-decoration: none;
+}
+
+.socialLink:hover {
+  background: var(--cv-theme-tertiary);
+  text-decoration: none;
+}
+
 .legalLinksWrapper {
   display: flex;
   flex-wrap: wrap;
