@@ -1,3 +1,16 @@
+# [1.15.0](https://github.com/Teradata/design-system/compare/v1.14.3...v1.15.0) (2025-06-10)
+
+
+### Bug Fixes
+
+* **scrollbar:** devportal1075 ([7185fed](https://github.com/Teradata/design-system/commit/7185fed06a03fe4292922248dfa19562a700c024))
+* **scrollbar:** eslint fix ([c899be0](https://github.com/Teradata/design-system/commit/c899be01fce3b226e885fe5521e4b4110fd2cad2))
+
+
+### Features
+
+* **footer:** add social media icons and update footer component to use SvgIcon ([a625160](https://github.com/Teradata/design-system/commit/a625160ff5e65e79bcf0942c36ab537ad4f8d4e6))
+
 ## [1.14.3](https://github.com/Teradata/design-system/compare/v1.14.2...v1.14.3) (2025-03-19)
 
 
