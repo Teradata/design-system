@@ -22,7 +22,9 @@ export const SvgIcon: React.FC<SvgIconProps> = ({
   React.useEffect(() => {
     const loadIcon = async () => {
       try {
-        const response = await fetch(`/src/lib/assets/social-icons/${iconName}.svg`);
+        const response = await fetch(
+          `/src/lib/assets/social-icons/${iconName}.svg`,
+        );
         const text = await response.text();
         // Extract the path data from the SVG content
         const pathMatch = text.match(/<path[^>]*d="([^"]*)"[^>]*>/);

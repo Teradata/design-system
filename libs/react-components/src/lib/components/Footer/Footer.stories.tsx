@@ -165,7 +165,7 @@ const meta = {
         {
           icon: 'linkedin',
           href: 'https://www.linkedin.com/company/teradata',
-          external: true,   
+          external: true,
         },
         {
           icon: 'twitter',

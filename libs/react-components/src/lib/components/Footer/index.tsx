@@ -166,17 +166,14 @@ const Footer: React.FC<FooterProps> = ({
               <ul className={styles.socialLinksList}>
                 {socialLinks.items?.map((item, index) => (
                   <li key={index}>
-                    <a 
-                      href={item.href} 
-                      target={item.external ? '_blank' : '_self'} 
+                    <a
+                      href={item.href}
+                      target={item.external ? '_blank' : '_self'}
                       aria-label={`Social Link${item.label ? `- ${item.label}` : ''}`}
                       rel="noreferrer"
                       className={styles.socialLink}
                     >
-                    <SvgIcon
-                      iconName={item.icon}
-                      size={14}
-                    />
+                      <SvgIcon iconName={item.icon} size={14} />
                     </a>
                   </li>
                 ))}

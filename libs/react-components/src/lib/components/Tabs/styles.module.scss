@@ -6,7 +6,13 @@
 .tabBar {
   display: flex;
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.tabBar::-webkit-scrollbar {
+  display: none;
 }
 
 .tabContent {
