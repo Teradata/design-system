@@ -1,0 +1,10 @@
+{
+  "name": "@teradata-web/react-components",
+  "version": "0.0.0-TERADATA-WEB",
+  "type": "module",
+  "main": "dist/libs/react-components/index.js",
+  "types": "dist/libs/react-components/index.d.ts",
+  "sideEffects": [
+    "**/*.css"
+  ]
+}
