@@ -56,6 +56,6 @@ jobs:
       - name: Deploy Storybook Preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./dist/
+          source-dir: dist/storybook/react-components
           preview-branch: gh-pages
           umbrella-dir: storybook-previews
