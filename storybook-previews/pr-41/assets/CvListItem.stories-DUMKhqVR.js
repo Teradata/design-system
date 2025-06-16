@@ -1,0 +1,5 @@
+import{C as i}from"./index-HkPMyJ5k.js";import{j as o}from"./jsx-runtime-BcdWgXRp.js";import"./base-element-CzNmpVoz-HnuJvqvh.js";import"./ripple-handlers-BAdg-fJB-Dl1HFRFR.js";import"./observer-DQ8OfVDQ-B_W05g5g.js";import"./index-BzAyOvpL.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./icon-DFS2mfq7.js";const h={title:"Components/CvListItem",component:i,tags:["autodocs"],parameters:{layout:"fullscreen"},args:{value:"",group:"",tabindex:1,disabled:!1,twoline:!1,activated:!1,graphic:"",multipleGraphics:!1,hasMeta:!1,noninteractive:!1,selected:!1,children:o.jsx("span",{children:"List Item"})}},e={render:r=>o.jsx(i,{...r,children:r.children})};var t,a,s;e.parameters={...e.parameters,docs:{...(t=e.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  render: args => {
+    return <CvListItem {...args}>{args.children}</CvListItem>;
+  }
+}`,...(s=(a=e.parameters)==null?void 0:a.docs)==null?void 0:s.source}}};const v=["Basic"];export{e as Basic,v as __namedExportsOrder,h as default};
