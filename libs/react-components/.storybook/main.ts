@@ -26,6 +26,7 @@ const config: StorybookConfig = {
   viteFinal: async (config, { configType }) => {
     // Custom Vite configurations can be added here
     if (configType === 'PRODUCTION') {
+      config.base = './'; 
       config?.plugins?.push(
         terser({
           compress: {
