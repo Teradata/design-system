@@ -1,3 +1,20 @@
+# [1.16.0](https://github.com/Teradata/design-system/compare/v1.15.0...v1.16.0) (2025-06-17)
+
+
+### Bug Fixes
+
+* **footer:** change source directory ([9b02655](https://github.com/Teradata/design-system/commit/9b02655d4df00ad88312bfab2475233c626406ed))
+* **footer:** change source directory-1 ([45dc88d](https://github.com/Teradata/design-system/commit/45dc88df53283c0b2cacec9e5bf9fffd99fb021a))
+* **footer:** change source directory-2 ([d59358e](https://github.com/Teradata/design-system/commit/d59358e35537336328af273a6a4886e496dd50ab))
+* **footer:** change source directory-3 ([08ddb7f](https://github.com/Teradata/design-system/commit/08ddb7ff13ccaeedd277709f9a093f10ee707027))
+* **footer:** load SVG icons via import with ?raw to fix missing icons in production ([57c319f](https://github.com/Teradata/design-system/commit/57c319f3996520ca3e0d51a065f72dc2717ad251))
+* **footer:** remove pr preview ([c856e7d](https://github.com/Teradata/design-system/commit/c856e7d30cc69e28635f0ef3f4f3c515c0816c4a))
+
+
+### Features
+
+* **footer:** add pr preview ([88c6a6a](https://github.com/Teradata/design-system/commit/88c6a6a8339241e505d719ba26eeeae78d88919f))
+
 # [1.15.0](https://github.com/Teradata/design-system/compare/v1.14.3...v1.15.0) (2025-06-10)
 
 
