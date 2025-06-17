@@ -31,6 +31,7 @@ import Dialog from './components/Dialog';
 import CvListItem from './components/CvListItem';
 import List from './components/List';
 import Select from './components/Select';
+import { SvgIcon } from './components/SvgIcon';
 
 export {
   Alert,
@@ -57,6 +58,7 @@ export {
   ListItem,
   Select,
   NavItem,
+  SvgIcon,
   Tab,
   TabBar,
   Typography,
