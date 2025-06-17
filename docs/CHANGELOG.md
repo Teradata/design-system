@@ -1,3 +1,11 @@
+## [1.16.1](https://github.com/Teradata/design-system/compare/v1.16.0...v1.16.1) (2025-06-17)
+
+
+### Bug Fixes
+
+* **svgicon:** eslint fix ([5d24cba](https://github.com/Teradata/design-system/commit/5d24cba9d511859b38fb61f404a429c4fe31d38c))
+* **SvgIcon:** export component in index file ([eaf3f80](https://github.com/Teradata/design-system/commit/eaf3f80a1b950328d4a0ec3cdd9a29fc9c1f5fb4))
+
 # [1.16.0](https://github.com/Teradata/design-system/compare/v1.15.0...v1.16.0) (2025-06-17)
 
 
