@@ -1,0 +1,12 @@
+.feedback {
+  display: flex;
+  min-height: 64px;
+  padding: 0px 16px 0px 24px;
+  align-items: center;
+  border-radius: 12px;
+  background-color: var(--cv-theme-surface-container-highest);
+}
+
+.feedbackLabel {
+  flex: 1;
+}

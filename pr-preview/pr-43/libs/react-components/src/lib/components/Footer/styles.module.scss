@@ -1,0 +1,253 @@
+@import '../../mixins';
+@include container-wide();
+@include caret();
+
+.caret {
+  display: none;
+}
+
+.footer {
+  margin: 0;
+  padding: 20px 0 40px;
+}
+
+.footerLinksWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footerLink {
+  padding: 8px;
+  flex: 1 0 0;
+}
+
+.footerLinkTitle {
+  color: var(--td-web-primary-navy);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  position: relative;
+  pointer-events: none;
+}
+
+.socialLinksWrapper .footerLinkTitle {
+  padding-bottom: 16px;
+}
+
+.footerLinkItem {
+  margin: 16px 0;
+}
+
+.footerNavLink {
+  text-decoration: none;
+  color: var(--td-web-primary-navy);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background-image: linear-gradient(
+    var(--td-web-primary-navy),
+    var(--td-web-primary-navy)
+  );
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 1px;
+  position: relative;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.footerNavLink:hover {
+  color: var(--td-web-primary-navy);
+  background-size: 100% 1px;
+  text-decoration: none;
+}
+
+.socialLinksList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 12px;
+}
+
+.socialLink {
+  align-items: center;
+  background: var(--td-web-primary-navy);
+  border-radius: 100%;
+  color: var(--cv-theme-surface-container-lowest);
+  display: inline-flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out 0s;
+  text-decoration: none;
+}
+
+.socialLink:hover {
+  background: var(--cv-theme-tertiary);
+  text-decoration: none;
+}
+
+.legalLinksWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 24px;
+}
+
+.copyrightWrapper {
+  align-items: center;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.copyrightLinks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid var(--td-web-gray-300);
+  padding-top: 24px;
+}
+
+.copyrightText {
+  margin-bottom: 24px;
+}
+
+.externalIconImg {
+  margin: 0 0 -2px 8px;
+}
+
+.legalLinksWrapper .footerLinkItem {
+  margin: 0 0 8px;
+}
+
+.footer,
+.linksOfInterest {
+  box-sizing: border-box;
+  background: var(--td-web-gray-25);
+  color: var(--td-web-primary-navy);
+  font-family: Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.linksOfInterest {
+  font-size: 14px;
+  line-height: 28px;
+  padding: 8px;
+  text-align: center;
+}
+
+.linksOfInterestTitle {
+  font-family:
+    Space Grotesk,
+    sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.linkOfInterest a {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 60px 0 40px;
+  }
+
+  .legalLinksWrapper .footerLinkItem {
+    margin: 0;
+  }
+
+  .linksOfInterestTitle {
+    flex-basis: 140px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 2em;
+  }
+
+  .linksOfInterest {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .copyrightLinks {
+    margin: 16px 0 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .linkOfInterest {
+    display: inline-block;
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .copyrightText {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .footerLinksWrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .footerLink {
+    padding: 0;
+  }
+
+  .footerLink.collapsible {
+    width: 100%;
+    border-bottom: 1px solid var(--td-web-gray-300);
+
+    .footerLinkTitle {
+      pointer-events: all;
+      font-size: 16px;
+      padding: 16px 0;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  .caret {
+    display: block;
+  }
+
+  .footerLinkList {
+    display: none;
+
+    &.show {
+      display: block;
+    }
+  }
+
+  .socialLinksList {
+    max-width: 215px;
+  }
+
+  .socialLinksWrapper {
+    margin: 2rem 0;
+  }
+
+  .legalLinksWrapper .footerNavLink,
+  .linkOfInterest a {
+    text-decoration: underline;
+    background-size: 0 1px;
+  }
+
+  .linksOfInterest {
+    line-height: 26px;
+  }
+}

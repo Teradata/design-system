@@ -1,0 +1,136 @@
+%headline-styles {
+  font-style: normal; // Common style
+  color: var(--td-web-primary-navy);
+}
+
+%body-styles {
+  font-style: normal; // Common style
+  color: var(--td-web-gray-700);
+}
+
+.typography {
+  display: block;
+}
+
+.headline1 {
+  @extend %headline-styles;
+  /* Desktop/H1 */
+  font-family: var(--td-web-typography-headline1-font-family);
+  font-size: var(--td-web-typography-headline1-font-size);
+  font-weight: var(--td-web-typography-headline1-font-weight);
+  line-height: var(--td-web-typography-headline1-line-height);
+  letter-spacing: var(--td-web-typography-headline1-letter-spacing);
+}
+
+.headline2 {
+  @extend %headline-styles;
+  /* Desktop/H2 */
+  font-family: var(--td-web-typography-headline2-font-family);
+  font-size: var(--td-web-typography-headline2-font-size);
+  font-weight: var(--td-web-typography-headline2-font-weight);
+  line-height: var(--td-web-typography-headline2-line-height);
+  letter-spacing: var(--td-web-typography-headline2-letter-spacing);
+}
+
+.headline3 {
+  @extend %headline-styles;
+  /* Desktop/H2 */
+  font-family: var(--td-web-typography-headline3-font-family);
+  font-size: var(--td-web-typography-headline3-font-size);
+  font-weight: var(--td-web-typography-headline3-font-weight);
+  line-height: var(--td-web-typography-headline3-line-height);
+  letter-spacing: var(--td-web-typography-headline3-letter-spacing);
+}
+
+.body1 {
+  @extend %body-styles;
+  /* Desktop/Body 1 - Regular */
+  font-family: var(--td-web-typography-body-font-family);
+  font-size: var(--td-web-typography-body1-font-size);
+  font-weight: var(--td-web-typography-body-font-weight);
+  line-height: var(--td-web-typography-body1-line-height);
+}
+
+.body2 {
+  @extend %body-styles;
+  /* Desktop/Body 2 - Regular */
+  font-family: var(--td-web-typography-body-font-family);
+  font-size: var(--td-web-typography-body2-font-size);
+  font-weight: var(--td-web-typography-body-font-weight);
+  line-height: var(--td-web-typography-body2-line-height);
+}
+
+.body3 {
+  color: var(--td-web-foreground-icon);
+  /* Desktop/Body 3 - Regular */
+  font-family: var(--td-web-typography-body-font-family);
+  font-size: var(--td-web-typography-body3-font-size);
+  font-weight: var(--td-web-typography-body-font-weight);
+  line-height: var(--td-web-typography-body3-line-height);
+}
+
+.caption,
+.eyebrow {
+  @extend %headline-styles;
+  /* Desktop/Caption/Bold */
+  font-family: var(--td-web-typography-caption-font-family);
+  font-size: var(--td-web-typography-caption-font-size);
+  font-weight: var(--td-web-typography-caption-font-weight);
+  line-height: var(--td-web-typography-caption-line-height);
+}
+
+.eyebrow {
+  align-items: var(--td-web-typography-eyebrow-alignment, 'center');
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &::after {
+    background-color: var(--cv-theme-tertiary);
+    border-radius: 2px;
+    content: '';
+    height: 2px;
+    width: 20px;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .headline1 {
+    font-size: var(--td-web-typography-headline1-mb-font-size);
+    line-height: var(--td-web-typography-headline1-mb-line-height);
+    letter-spacing: var(--td-web-typography-headline1-mb-letter-spacing);
+  }
+
+  .headline2 {
+    font-size: calc(var(--td-web-typography-headline3-font-size) + 2px);
+    line-height: calc(var(--td-web-typography-headline3-line-height) + 2px);
+    letter-spacing: var(--td-web-typography-headline2-mb-letter-spacing);
+  }
+
+  .headline3 {
+    font-size: var(--td-web-typography-body2-font-size);
+    line-height: var(--td-web-typography-body1-line-height);
+  }
+
+  .body1 {
+    font-size: var(--td-web-typography-body2-font-size);
+    line-height: var(--td-web-typography-body2-line-height);
+  }
+
+  .body2 {
+    font-size: var(--td-web-typography-body3-font-size);
+    line-height: var(--td-web-typography-body3-line-height);
+  }
+
+  .body3 {
+    font-size: calc(var(--td-web-typography-body3-font-size) - 2px);
+    line-height: calc(var(--td-web-typography-body3-line-height) - 2px);
+  }
+
+  .caption,
+  .eyebrow {
+    font-size: calc(var(--td-web-typography-caption-font-size) - 1px);
+    line-height: calc(var(--td-web-typography-caption-line-height) - 1px);
+  }
+}

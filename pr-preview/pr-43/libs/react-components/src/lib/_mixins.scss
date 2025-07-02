@@ -1,0 +1,39 @@
+@mixin container-wide() {
+  .containerWide {
+    padding: 0 24px;
+    margin: auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (min-width: 768px) {
+    .containerWide {
+      padding: 0 40px;
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .containerWide {
+      padding: 0 106px;
+      width: 100%;
+    }
+  }
+}
+
+@mixin caret() {
+  .caret {
+    content: '';
+    border: solid var(--td-web-gray-700);
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    position: absolute;
+    transition: all 0.25s ease;
+    right: 3px;
+    cursor: pointer;
+
+    &.active {
+      transform: rotate(45deg) rotate(-180deg);
+    }
+  }
+}

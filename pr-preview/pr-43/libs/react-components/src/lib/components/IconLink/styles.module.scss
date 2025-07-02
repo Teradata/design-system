@@ -1,0 +1,22 @@
+.iconLink {
+  align-items: center;
+  background: var(--td-web-primary-navy);
+  border-radius: 100%;
+  color: var(--cv-theme-surface-container-lowest);
+  display: inline-flex;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out 0s;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--cv-theme-tertiary);
+    text-decoration: none;
+  }
+}
+
+.icon {
+  color: var(--cv-theme-surface-container-lowest);
+}

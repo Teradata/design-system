@@ -1,0 +1,29 @@
+.codeSnippetWrapper {
+  position: relative;
+}
+
+.copyButton {
+  opacity: 0;
+  position: absolute;
+  top: 38px;
+  transition: opacity 0.25s ease-out;
+  right: 5px;
+
+  --mdc-icon-button-size: 40px;
+  --mdc-icon-size: 20px;
+}
+
+.codeSnippet {
+  &:hover {
+    .copyButton {
+      opacity: 1;
+      transition: opacity 0.25s ease-in;
+      background-color: var(--cv-theme-surface-variant);
+      border-radius: 50%;
+    }
+  }
+}
+
+.headerHidden .copyButton {
+  top: 5px;
+}

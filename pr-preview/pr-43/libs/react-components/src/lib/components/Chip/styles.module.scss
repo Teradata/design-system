@@ -1,0 +1,33 @@
+.chip {
+  border: 1px solid var(--td-web-gray-300);
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: var(--td-web-primary-navy);
+  display: inline-block;
+  font-family: var(--mdc-typography-subtitle1-font-family);
+  font-weight: var(--mdc-typography-subtitle1-font-weight);
+  padding: 16px 12px;
+  transition: all 0.25s ease-in-out 0s;
+  white-space: nowrap;
+
+  &.selectable {
+    cursor: pointer;
+  }
+
+  &:hover {
+    border-color: var(--td-web-primary-navy);
+  }
+}
+
+.selected {
+  background-color: var(--td-web-primary-navy);
+  border-color: var(--td-web-primary-navy);
+  color: var(--cv-theme-surface-container-lowest);
+  cursor: default;
+}
+
+@media screen and (min-width: 1024px) {
+  .chip {
+    padding: 16px 24px;
+  }
+}

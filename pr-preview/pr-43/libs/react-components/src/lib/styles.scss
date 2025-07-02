@@ -1,0 +1,99 @@
+@use '@covalent/tokens' as covalent-tokens;
+@use '@covalent/components' as covalent-theme;
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block');
+
+// Extracting theme tokens
+$theme-tokens: map-get(covalent-tokens.$tokens, 'theme');
+$light-tokens: map-get($theme-tokens, 'light');
+$dark-tokens: map-get($theme-tokens, 'dark');
+
+// Extracting typography tokens
+$typography: map-get(covalent-tokens.$tokens, 'typography');
+
+// Extracting color tokens for light and dark themes
+$light-colors: map-get($light-tokens, 'colors');
+$dark-colors: map-get($dark-tokens, 'colors');
+
+// Merging with deprecated tokens (if any)
+$light-colors: map-merge(
+  $light-colors,
+  map-get(covalent-tokens.$tokens, 'light')
+);
+$dark-colors: map-merge($dark-colors, map-get(covalent-tokens.$tokens, 'dark'));
+
+@mixin code-tokens($typogrpahy) {
+  --cv-theme-code-font-family: #{map-get($typography, code-font-family)};
+  --cv-theme-code-font-size: #{map-get($typography, code-font-size)};
+  --cv-theme-code-font-weight: #{map-get($typography, code-font-weight)};
+  --cv-theme-code-line-height: #{map-get($typography, code-line-height)};
+}
+
+:root {
+  // Apply the light theme by default
+  @include covalent-theme.components-theme($light-colors, $typography);
+  @include code-tokens($typography);
+
+  // Tokens which are not part of covalent
+  --td-web-foreground-icon: #00000099;
+  --td-web-gray-25: #f6f7fb;
+  --td-web-gray-100: #ced3da;
+  --td-web-gray-300: #b2b9c0;
+  --td-web-gray-700: #333a3e;
+  --td-web-primary-navy: #00233c;
+
+  // Typography tokens
+  --td-web-typography-body-font-family: Inter;
+  --td-web-typography-body-font-weight: 400;
+
+  --td-web-typography-body1-font-size: 20px;
+  --td-web-typography-body1-line-height: 28px;
+
+  --td-web-typography-body2-font-size: calc(
+    var(--td-web-typography-body1-font-size) - 2px
+  );
+  --td-web-typography-body2-line-height: calc(
+    var(--td-web-typography-body1-line-height) - 2px
+  );
+
+  --td-web-typography-body3-font-size: calc(
+    var(--td-web-typography-body1-font-size) - 4px
+  );
+  --td-web-typography-body3-line-height: calc(
+    var(--td-web-typography-body1-line-height) - 4px
+  );
+
+  --td-web-typography-caption-font-family: Inter;
+  --td-web-typography-caption-font-size: 16px;
+  --td-web-typography-caption-font-weight: 600;
+  --td-web-typography-caption-line-height: 20px;
+
+  --td-web-typography-headline1-font-family: Inter;
+  --td-web-typography-headline1-font-size: 54px;
+  --td-web-typography-headline1-font-weight: 300;
+  --td-web-typography-headline1-letter-spacing: -1.62px;
+  --td-web-typography-headline1-line-height: 64px;
+  --td-web-typography-headline1-mb-font-size: 32px;
+  --td-web-typography-headline1-mb-letter-spacing: -0.96px;
+  --td-web-typography-headline1-mb-line-height: 42px;
+
+  --td-web-typography-headline2-font-family: Inter;
+  --td-web-typography-headline2-font-size: 42px;
+  --td-web-typography-headline2-font-weight: 300;
+  --td-web-typography-headline2-letter-spacing: -1.26px;
+  --td-web-typography-headline2-line-height: 52px;
+  --td-web-typography-headline2-mb-letter-spacing: -0.78px;
+
+  --td-web-typography-headline3-font-family: Inter;
+  --td-web-typography-headline3-font-size: 24px;
+  --td-web-typography-headline3-font-weight: 600;
+  --td-web-typography-headline3-letter-spacing: -0.24px;
+  --td-web-typography-headline3-line-height: 34px;
+
+  --td-web-typography-eyebrow-alignment: center;
+}
+
+// Dark theme class
+.theme-dark {
+  // Apply the dark theme when .theme-dark class is added to an element
+  @include covalent-theme.components-theme($dark-colors, $typography);
+}
