@@ -53,3 +53,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx nx affected --target=build --base=${{ github.event.pull_request.base.sha }}
+      - run: npx nx run react-components:build-storybook
+      - name: Deploy Storybook Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./dist/storybook/react-components
+          preview-branch: gh-pages
+          umbrella-dir: storybook-previews
