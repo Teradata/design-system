@@ -57,7 +57,7 @@ jobs:
       - name: Deploy Storybook Preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.SEMANTIC_RELEASE_GH }}
           preview-branch: gh-pages
           source-dir: ./dist/storybook/react-components
           umbrella-dir: pr-preview
