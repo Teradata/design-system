@@ -192,6 +192,16 @@ const meta = {
           href: 'https://www.teradata.com/rss',
           external: true,
         },
+        {
+          icon: 'medium',
+          href: 'https://medium.com/teradata',
+          external: true,
+        },
+        {
+          icon: 'github',
+          href: 'https://github.com/Teradata',
+          external: true,
+        },
       ],
     },
     legalLinks: [
