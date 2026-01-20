@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/Teradata/design-system/compare/v1.16.1...v1.17.0) (2026-01-20)
+
+
+### Features
+
+* new icons as per tcom ([41c6d01](https://github.com/Teradata/design-system/commit/41c6d01a93599e608526984c6cd2ce12341b2c55))
+
 ## [1.16.1](https://github.com/Teradata/design-system/compare/v1.16.0...v1.16.1) (2025-06-17)
 
 
