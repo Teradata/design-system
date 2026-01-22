@@ -1,3 +1,14 @@
+# [1.18.0](https://github.com/Teradata/design-system/compare/v1.17.0...v1.18.0) (2026-01-22)
+
+
+### Features
+
+* **prpreviews:** test ([efae6d0](https://github.com/Teradata/design-system/commit/efae6d052e605a1951fddc51c14de251e0ac4a1d))
+* **prpreviews:** test-token ([cc9e3ac](https://github.com/Teradata/design-system/commit/cc9e3acd02ea8ef36551fd1446e82b485c9831f2))
+* **prpreviews:** test-token-2 ([fd20905](https://github.com/Teradata/design-system/commit/fd20905046439fc211e2d22ae9888b10dd9d3c76))
+* **prpreviews:** test-token-3 ([57eaeb1](https://github.com/Teradata/design-system/commit/57eaeb1846a462dd41ab9df6d09dcd9c931147d1))
+* **prpreviews:** test-token-4 ([fa3677a](https://github.com/Teradata/design-system/commit/fa3677ae747a0a94ae0be0116a9d2b0533898998))
+
 # [1.17.0](https://github.com/Teradata/design-system/compare/v1.16.1...v1.17.0) (2026-01-20)
 
 
